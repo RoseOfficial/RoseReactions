@@ -23978,7 +23978,7 @@ local tbl =
 				clusterRadius = 8,
 				clusterRange = 30,
 				comparator = 1,
-				conditionLua = "return data.countdownTime ~= nil and data.countdownDuration ~= nil and data.countdownDuration * 1000 - TimeSince(data.countdownTime) <= 2500",
+				conditionLua = "return data.countdownTime ~= nil and data.countdownDuration ~= nil and data.countdownDuration * 1000 - TimeSince(data.countdownTime) <= 1500",
 				conditionType = 1,
 				conditions = 
 				{
@@ -24017,7 +24017,7 @@ local tbl =
 				minTargetPercent = false,
 				mpType = 1,
 				mpValue = 0,
-				name = "time is -2.5",
+				name = "time is -1.5",
 				partyHpType = 1,
 				partyHpValue = 0,
 				partyMpType = 1,
