@@ -14965,7 +14965,7 @@ local tbl =
 						usePot = false,
 						uuid = "7efd2e9e-2890-5a38-9646-07eace91cb04",
 						variableIsHover = true,
-						variableTogglesType = 4,
+						variableTogglesType = 3,
 						version = 2,
 					},
 					inheritedObjectUUID = "",
@@ -15044,7 +15044,7 @@ local tbl =
 						usePot = false,
 						uuid = "4b45f89f-6955-faf2-820f-291b545ee249",
 						variableIsHover = true,
-						variableTogglesType = 4,
+						variableTogglesType = 3,
 						version = 2,
 					},
 					inheritedObjectUUID = "",
@@ -15128,7 +15128,7 @@ local tbl =
 						usePot = false,
 						uuid = "0f9efad5-f1c5-26a4-80be-df353a7633b8",
 						variableIsHover = true,
-						variableTogglesType = 4,
+						variableTogglesType = 3,
 						version = 2,
 					},
 					inheritedObjectUUID = "",
@@ -15212,7 +15212,7 @@ local tbl =
 						usePot = false,
 						uuid = "038c4d1f-5572-3450-88b6-9a77f3c707f2",
 						variableIsHover = true,
-						variableTogglesType = 4,
+						variableTogglesType = 3,
 						version = 2,
 					},
 					inheritedObjectUUID = "",
@@ -15296,7 +15296,7 @@ local tbl =
 						usePot = false,
 						uuid = "1bd6aeaa-ef06-e43a-b740-3eddd1be124f",
 						variableIsHover = true,
-						variableTogglesType = 4,
+						variableTogglesType = 3,
 						version = 2,
 					},
 					inheritedObjectUUID = "",
@@ -15380,7 +15380,7 @@ local tbl =
 						usePot = false,
 						uuid = "8d9be21b-07ee-3bfb-8f91-ea15ec5482da",
 						variableIsHover = true,
-						variableTogglesType = 4,
+						variableTogglesType = 3,
 						version = 2,
 					},
 					inheritedObjectUUID = "",
@@ -15469,7 +15469,7 @@ local tbl =
 						usePot = false,
 						uuid = "f2a23df0-a272-436b-a633-8acbabf8c406",
 						variableIsHover = false,
-						variableTogglesType = 4,
+						variableTogglesType = 3,
 						version = 2,
 					},
 					inheritedObjectUUID = "",
@@ -15558,7 +15558,7 @@ local tbl =
 						usePot = false,
 						uuid = "afe0636e-aa78-a1ef-83a2-00d677028742",
 						variableIsHover = false,
-						variableTogglesType = 4,
+						variableTogglesType = 3,
 						version = 2,
 					},
 					inheritedObjectUUID = "",
@@ -15642,7 +15642,7 @@ local tbl =
 						usePot = false,
 						uuid = "559d53d1-f7f9-5c59-a159-e4ec6bd072b4",
 						variableIsHover = false,
-						variableTogglesType = 4,
+						variableTogglesType = 3,
 						version = 2,
 					},
 					inheritedObjectUUID = "",
@@ -15731,7 +15731,7 @@ local tbl =
 						usePot = false,
 						uuid = "a6cd2575-165c-9655-80d2-a3128c8f7493",
 						variableIsHover = true,
-						variableTogglesType = 4,
+						variableTogglesType = 3,
 						version = 2,
 					},
 					inheritedObjectUUID = "",
@@ -15830,7 +15830,7 @@ local tbl =
 						usePot = false,
 						uuid = "28495eb5-1d3b-a07a-ab5c-cc13ed8845d9",
 						variableIsHover = false,
-						variableTogglesType = 4,
+						variableTogglesType = 3,
 						version = 2,
 					},
 					inheritedObjectUUID = "",
@@ -15914,86 +15914,7 @@ local tbl =
 						usePot = false,
 						uuid = "e2834e0b-906d-635a-bae8-b620ec64af02",
 						variableIsHover = false,
-						variableTogglesType = 4,
-						version = 2,
-					},
-					inheritedObjectUUID = "",
-					inheritedOverwrites = 
-					{
-					},
-				},
-				
-				{
-					data = 
-					{
-						aType = "Variable",
-						actionID = 16531,
-						actionLua = "local target = EntityList:Get(eventArgs.detectionTargetID)\ndata.SpellInQueue = true\ndata.SpellInQueueTarget = target\ndata.SpellInQueueID = 16531\ndata.SpellInQueueTime = Now()\nself.used = true",
-						allowInterrupt = false,
-						atomicPriority = false,
-						castAtMouse = false,
-						castPosX = 0,
-						castPosY = 0,
-						castPosZ = 0,
-						clusterMinPercent = false,
-						clusterMinTarget = 1,
-						clusterRadius = 8,
-						clusterRange = 30,
-						conditions = 
-						{
-							
-							{
-								"af1e59b1-69de-5ea6-873e-00367b4a5731",
-								true,
-							},
-							
-							{
-								"a986dfc9-e6bd-d69c-b4e7-66ffcaa0debb",
-								true,
-							},
-							
-							{
-								"e2fd1cc5-1c68-6d4c-b1be-6bcc889de785",
-								true,
-							},
-							
-							{
-								"4afa1aae-3972-53d7-8724-d70159aa2a67",
-								true,
-							},
-							
-							{
-								"0f51329b-35e8-5acd-9d81-589692b03abe",
-								true,
-							},
-						},
-						endIfUsed = true,
-						fallthrough = false,
-						gVar = "ACR_RikuWHM2_Healbar_AfflatusSolace",
-						gVarValue = 1,
-						ignoreWeaveRules = false,
-						isAreaTarget = false,
-						luaNeedsWeaveWindow = false,
-						luaReturnsAction = false,
-						name = "Afflatus Solace (Tank)",
-						potType = 1,
-						setTarget = false,
-						showPositionPreview = false,
-						stopCasting = false,
-						stopMoving = false,
-						targetContentID = -1,
-						targetName = "",
-						targetSubType = "Nearest",
-						targetType = "Detection Target",
-						untarget = false,
-						useForWeaving = false,
-						useItem = false,
-						useItemID = 0,
-						useItemName = "",
-						usePot = false,
-						uuid = "6de1617a-eb96-f711-8970-ccdd15e4623b",
-						variableIsHover = true,
-						variableTogglesType = 4,
+						variableTogglesType = 3,
 						version = 2,
 					},
 					inheritedObjectUUID = "",
@@ -16072,9 +15993,90 @@ local tbl =
 						usePot = false,
 						uuid = "bdb7f7d1-86ca-ca2a-8851-fc025eafa3a5",
 						variableIsHover = true,
-						variableTogglesType = 4,
+						variableTogglesType = 3,
 						version = 2,
 					},
+					inheritedIndex = 13,
+					inheritedObjectUUID = "",
+					inheritedOverwrites = 
+					{
+					},
+				},
+				
+				{
+					data = 
+					{
+						aType = "Variable",
+						actionID = 16531,
+						actionLua = "local target = EntityList:Get(eventArgs.detectionTargetID)\ndata.SpellInQueue = true\ndata.SpellInQueueTarget = target\ndata.SpellInQueueID = 16531\ndata.SpellInQueueTime = Now()\nself.used = true",
+						allowInterrupt = false,
+						atomicPriority = false,
+						castAtMouse = false,
+						castPosX = 0,
+						castPosY = 0,
+						castPosZ = 0,
+						clusterMinPercent = false,
+						clusterMinTarget = 1,
+						clusterRadius = 8,
+						clusterRange = 30,
+						conditions = 
+						{
+							
+							{
+								"af1e59b1-69de-5ea6-873e-00367b4a5731",
+								true,
+							},
+							
+							{
+								"a986dfc9-e6bd-d69c-b4e7-66ffcaa0debb",
+								true,
+							},
+							
+							{
+								"e2fd1cc5-1c68-6d4c-b1be-6bcc889de785",
+								true,
+							},
+							
+							{
+								"4afa1aae-3972-53d7-8724-d70159aa2a67",
+								true,
+							},
+							
+							{
+								"0f51329b-35e8-5acd-9d81-589692b03abe",
+								true,
+							},
+						},
+						endIfUsed = true,
+						fallthrough = false,
+						gVar = "ACR_RikuWHM2_Healbar_AfflatusSolace",
+						gVarValue = 1,
+						ignoreWeaveRules = false,
+						isAreaTarget = false,
+						luaNeedsWeaveWindow = false,
+						luaReturnsAction = false,
+						name = "Afflatus Solace (Tank)",
+						potType = 1,
+						setTarget = false,
+						showPositionPreview = false,
+						stopCasting = false,
+						stopMoving = false,
+						targetContentID = -1,
+						targetName = "",
+						targetSubType = "Nearest",
+						targetType = "Detection Target",
+						untarget = false,
+						useForWeaving = false,
+						useItem = false,
+						useItemID = 0,
+						useItemName = "",
+						usePot = false,
+						uuid = "6de1617a-eb96-f711-8970-ccdd15e4623b",
+						variableIsHover = true,
+						variableTogglesType = 3,
+						version = 2,
+					},
+					inheritedIndex = 13,
 					inheritedObjectUUID = "",
 					inheritedOverwrites = 
 					{
@@ -16151,7 +16153,7 @@ local tbl =
 						usePot = false,
 						uuid = "67418c91-b78d-8c1e-9e2b-7b7c6fd2b5f5",
 						variableIsHover = true,
-						variableTogglesType = 4,
+						variableTogglesType = 3,
 						version = 2,
 					},
 					inheritedObjectUUID = "",
@@ -16180,17 +16182,7 @@ local tbl =
 						{
 							
 							{
-								"a986dfc9-e6bd-d69c-b4e7-66ffcaa0debb",
-								true,
-							},
-							
-							{
-								"7b17f872-7e45-ed2c-9fe1-be5df9ae835d",
-								true,
-							},
-							
-							{
-								"b88f0bea-e174-5edf-a36e-f793d5de960a",
+								"0f51329b-35e8-5acd-9d81-589692b03abe",
 								true,
 							},
 							
@@ -16200,7 +16192,17 @@ local tbl =
 							},
 							
 							{
-								"0f51329b-35e8-5acd-9d81-589692b03abe",
+								"b88f0bea-e174-5edf-a36e-f793d5de960a",
+								true,
+							},
+							
+							{
+								"a986dfc9-e6bd-d69c-b4e7-66ffcaa0debb",
+								true,
+							},
+							
+							{
+								"7b17f872-7e45-ed2c-9fe1-be5df9ae835d",
 								true,
 							},
 						},
@@ -16230,7 +16232,7 @@ local tbl =
 						usePot = false,
 						uuid = "19efde12-48c6-ffa2-a029-c8a6a4d33198",
 						variableIsHover = true,
-						variableTogglesType = 4,
+						variableTogglesType = 3,
 						version = 2,
 					},
 					inheritedObjectUUID = "",
@@ -16314,7 +16316,7 @@ local tbl =
 						usePot = false,
 						uuid = "36120f69-f6bf-b873-9867-268447557e93",
 						variableIsHover = true,
-						variableTogglesType = 4,
+						variableTogglesType = 3,
 						version = 2,
 					},
 					inheritedObjectUUID = "",
@@ -16398,7 +16400,7 @@ local tbl =
 						usePot = false,
 						uuid = "f9bf5171-404c-bd0e-88ef-f2122c8b15cc",
 						variableIsHover = true,
-						variableTogglesType = 4,
+						variableTogglesType = 3,
 						version = 2,
 					},
 					inheritedObjectUUID = "",
@@ -16482,7 +16484,7 @@ local tbl =
 						usePot = false,
 						uuid = "8005425c-174b-65f5-a2f0-9b1b91bc7dcc",
 						variableIsHover = true,
-						variableTogglesType = 4,
+						variableTogglesType = 3,
 						version = 2,
 					},
 					inheritedObjectUUID = "",
@@ -16566,7 +16568,7 @@ local tbl =
 						usePot = false,
 						uuid = "8a1a68d1-5e6e-12ab-a1df-7fbf4daffa7e",
 						variableIsHover = true,
-						variableTogglesType = 4,
+						variableTogglesType = 3,
 						version = 2,
 					},
 					inheritedObjectUUID = "",
@@ -16640,7 +16642,7 @@ local tbl =
 						stopMoving = false,
 						targetContentID = -1,
 						targetName = "",
-						targetSubType = "Nearest",
+						targetSubType = "Lowest HP",
 						targetType = "Detection Target",
 						untarget = false,
 						useForWeaving = false,
@@ -16650,7 +16652,7 @@ local tbl =
 						usePot = false,
 						uuid = "e1c45195-620e-a74c-9243-c3efae659a32",
 						variableIsHover = true,
-						variableTogglesType = 4,
+						variableTogglesType = 3,
 						version = 2,
 					},
 					inheritedObjectUUID = "",
@@ -16734,7 +16736,7 @@ local tbl =
 						usePot = false,
 						uuid = "5b7ab77e-a2c1-da1e-9bcb-fe7d97117ecc",
 						variableIsHover = true,
-						variableTogglesType = 4,
+						variableTogglesType = 3,
 						version = 2,
 					},
 					inheritedObjectUUID = "",
@@ -18651,7 +18653,7 @@ local tbl =
 						clusterRadius = 8,
 						clusterRange = 30,
 						comparator = 2,
-						conditionLua = "local target = EntityList:Get(eventArgs.detectionTargetID)\n\nif not target then return false end\n\nif data.PartyHealNow == nil or data.PartyHealNow == false then return false end\n\nif target.HP.percent >= 100 then return false end\n\nif TensorCore.isTank(target) then return false end\n\nif target.HP.percent <= 99 then\n\nlocal PartyBuff = 1\nlocal HealingMagicPotency1 = Player:GetStats(34)\nlocal HealingMagicPotency2 = (569 * ((HealingMagicPotency1 * PartyBuff) - 390) / 1522) + 100\nlocal Potency = 1000\nlocal Determination1 = Player:GetStats(44)\nlocal Determination2 = (140 * (Determination1 - 390) / 1900 + 1000)\nlocal Healing1 = (((Potency * HealingMagicPotency2 * Determination2) / 100) / 1000)\nlocal WeaponDamage1 = Inventory:Get(1000):GetList()[1]:GetStat(12, true)\nlocal WeaponDamage2 = ((390 * 115 / 1000) + WeaponDamage1)\nlocal Healing2 = (((((Healing1 * 1000) / 1000) * WeaponDamage2) / 100) * 130) / 100\n\nreturn (target.HP.max - target.HP.current) >= Healing2 end\n\nreturn false\n\n--d(PartyBuff)\n\n--(RoseCore.Settings.WhmEvPartyOverhealSingle/100)",
+						conditionLua = "local target = EntityList:Get(eventArgs.detectionTargetID)\n\nif not target then return false end\n\nif data.PartyHealNow == nil or data.PartyHealNow == false then return false end\n\nif target.HP.percent >= 100 then return false end\n\nif TensorCore.isTank(target) then return false end\n\nif target.HP.percent <= 99 then\n\nlocal PartyBuff = 1\nlocal HealingMagicPotency1 = Player:GetStats(34)\nlocal HealingMagicPotency2 = (569 * ((HealingMagicPotency1 * PartyBuff) - 390) / 1522) + 100\nlocal Potency = 250\nlocal Determination1 = Player:GetStats(44)\nlocal Determination2 = (140 * (Determination1 - 390) / 1900 + 1000)\nlocal Healing1 = (((Potency * HealingMagicPotency2 * Determination2) / 100) / 1000)\nlocal WeaponDamage1 = Inventory:Get(1000):GetList()[1]:GetStat(12, true)\nlocal WeaponDamage2 = ((390 * 115 / 1000) + WeaponDamage1)\nlocal Healing2 = (((((Healing1 * 1000) / 1000) * WeaponDamage2) / 100) * 130) / 100\n\nreturn (target.HP.max - target.HP.current) >= Healing2 end\n\nreturn false\n\n--d(PartyBuff)\n\n--(RoseCore.Settings.WhmEvPartyOverhealSingle/100)",
 						conditionType = 2,
 						conditions = 
 						{
@@ -18748,7 +18750,7 @@ local tbl =
 						clusterRadius = 8,
 						clusterRange = 30,
 						comparator = 2,
-						conditionLua = "local target = EntityList:Get(eventArgs.detectionTargetID)\n\nif not target then return false end\n\nif data.PartyHealNow == nil or data.PartyHealNow == false then return false end\n\nif target.HP.percent >= 100 then return false end\n\nif TensorCore.isTank(target) then return false end\n\nif target.HP.percent <= 99 then\n\nlocal PartyBuff = 1\nlocal HealingMagicPotency1 = Player:GetStats(34)\nlocal HealingMagicPotency2 = (569 * ((HealingMagicPotency1 * PartyBuff) - 390) / 1522) + 100\nlocal Potency = 1250\nlocal Determination1 = Player:GetStats(44)\nlocal Determination2 = (140 * (Determination1 - 390) / 1900 + 1000)\nlocal Healing1 = (((Potency * HealingMagicPotency2 * Determination2) / 100) / 1000)\nlocal WeaponDamage1 = Inventory:Get(1000):GetList()[1]:GetStat(12, true)\nlocal WeaponDamage2 = ((390 * 115 / 1000) + WeaponDamage1)\nlocal Healing2 = (((((Healing1 * 1000) / 1000) * WeaponDamage2) / 100) * 130) / 100\n\nreturn (target.HP.max - target.HP.current) >= Healing2 end\n\nreturn false\n\n--d(PartyBuff)\n\n--(RoseCore.Settings.WhmEvPartyOverhealSingle/100)",
+						conditionLua = "local target = EntityList:Get(eventArgs.detectionTargetID)\n\nif not target then return false end\n\nif data.PartyHealNow == nil or data.PartyHealNow == false then return false end\n\nif target.HP.percent >= 100 then return false end\n\nif TensorCore.isTank(target) then return false end\n\nif target.HP.percent <= 99 then\n\nlocal PartyBuff = 1\nlocal HealingMagicPotency1 = Player:GetStats(34)\nlocal HealingMagicPotency2 = (569 * ((HealingMagicPotency1 * PartyBuff) - 390) / 1522) + 100\nlocal Potency = 250\nlocal Determination1 = Player:GetStats(44)\nlocal Determination2 = (140 * (Determination1 - 390) / 1900 + 1000)\nlocal Healing1 = (((Potency * HealingMagicPotency2 * Determination2) / 100) / 1000)\nlocal WeaponDamage1 = Inventory:Get(1000):GetList()[1]:GetStat(12, true)\nlocal WeaponDamage2 = ((390 * 115 / 1000) + WeaponDamage1)\nlocal Healing2 = (((((Healing1 * 1000) / 1000) * WeaponDamage2) / 100) * 130) / 100\n\nreturn (target.HP.max - target.HP.current) >= Healing2 end\n\nreturn false\n\n--d(PartyBuff)\n\n--(RoseCore.Settings.WhmEvPartyOverhealSingle/100)",
 						conditionType = 2,
 						conditions = 
 						{
@@ -19242,6 +19244,11 @@ local tbl =
 								"c8566ed4-f376-832e-80ec-c23fa7550c4d",
 								true,
 							},
+							
+							{
+								"7fcfab89-cc34-be56-a176-f342b528fcfd",
+								true,
+							},
 						},
 						contentid = -1,
 						dequeueIfLuaFalse = false,
@@ -19344,6 +19351,11 @@ local tbl =
 								"4e051cb2-ab45-9748-aa43-d45f887570e4",
 								true,
 							},
+							
+							{
+								"d19482a7-d068-4ddd-8852-ed21b0031ff4",
+								true,
+							},
 						},
 						contentid = -1,
 						dequeueIfLuaFalse = false,
@@ -19444,6 +19456,11 @@ local tbl =
 							
 							{
 								"a109548d-d749-d57c-b4cc-b319f27352f4",
+								true,
+							},
+							
+							{
+								"a16bf0f1-9959-c780-9303-16e8dc250adc",
 								true,
 							},
 						},
@@ -20568,6 +20585,11 @@ local tbl =
 								"c8566ed4-f376-832e-80ec-c23fa7550c4d",
 								true,
 							},
+							
+							{
+								"29eea162-f159-5fe7-9084-6f24437c6ff9",
+								true,
+							},
 						},
 						contentid = -1,
 						dequeueIfLuaFalse = false,
@@ -20798,7 +20820,7 @@ local tbl =
 						gaugeIndex = 1,
 						gaugeValue = 0,
 						hpType = 1,
-						hpValue = 75,
+						hpValue = 50,
 						inCombatType = 1,
 						inRangeValue = 0,
 						lastSkillID = -1,
@@ -24671,6 +24693,11 @@ local tbl =
 								"c8566ed4-f376-832e-80ec-c23fa7550c4d",
 								true,
 							},
+							
+							{
+								"a63eb3e4-9fd3-0307-b2a2-9e54179849f2",
+								true,
+							},
 						},
 						contentid = -1,
 						dequeueIfLuaFalse = false,
@@ -25156,6 +25183,21 @@ local tbl =
 						conditionType = 1,
 						conditions = 
 						{
+							
+							{
+								"d5226e6e-a835-bd88-9a2d-e0c6aa906788",
+								true,
+							},
+							
+							{
+								"ec17671b-8df1-1a52-b900-bb040f488b2e",
+								true,
+							},
+							
+							{
+								"d562ef40-f4ba-edeb-adc3-ba07429579e8",
+								true,
+							},
 						},
 						contentid = -1,
 						dequeueIfLuaFalse = false,
