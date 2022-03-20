@@ -1121,7 +1121,12 @@ local tbl =
 						{
 							
 							{
-								"016bbaed-93bd-30ff-9931-0f68c5a74d98",
+								"a4e8b0ff-dc39-3fa4-9247-9863f0fa52f7",
+								true,
+							},
+							
+							{
+								"f7895ff2-3ea2-7ff9-93c3-8c6dd8ac57e9",
 								true,
 							},
 						},
@@ -1149,7 +1154,7 @@ local tbl =
 						useItemID = 0,
 						useItemName = "",
 						usePot = false,
-						uuid = "7dee2f5c-18d0-2b3d-ba6f-1248e404f613",
+						uuid = "b5914171-36fc-e962-970b-d3d118414729",
 						variableIsHover = false,
 						variableTogglesType = 1,
 						version = 2,
@@ -1251,7 +1256,7 @@ local tbl =
 						spellIDList = 
 						{
 						},
-						uuid = "fa931b5e-1531-b0e3-b201-eb272d2fb47d",
+						uuid = "f7895ff2-3ea2-7ff9-93c3-8c6dd8ac57e9",
 						version = 2,
 					},
 					inheritedObjectUUID = "",
@@ -1348,7 +1353,7 @@ local tbl =
 						spellIDList = 
 						{
 						},
-						uuid = "f3d394ba-faa5-7418-b4d0-97f24f0a4b72",
+						uuid = "5be95508-4e06-5e8e-97fb-f8cd2661bfc7",
 						version = 2,
 					},
 					inheritedObjectUUID = "",
@@ -1445,104 +1450,7 @@ local tbl =
 						spellIDList = 
 						{
 						},
-						uuid = "120a3911-4159-886d-b7bc-384e8046ee91",
-						version = 2,
-					},
-					inheritedObjectUUID = "",
-					inheritedOverwrites = 
-					{
-					},
-				},
-				
-				{
-					data = 
-					{
-						actionCDValue = 0,
-						actionID = -1,
-						buffCheckType = 1,
-						buffDuration = 0,
-						buffID = -1,
-						buffIDList = 
-						{
-						},
-						category = "Filter",
-						channelCheckSpellID = -1,
-						channelCheckSpellIDList = 
-						{
-						},
-						channelCheckTimeRemain = 0,
-						channelCheckType = 1,
-						clusterMinPercent = false,
-						clusterMinTarget = 1,
-						clusterOriginalTarget = false,
-						clusterRadius = 8,
-						clusterRange = 30,
-						comparator = 1,
-						conditionLua = "",
-						conditionType = 1,
-						conditions = 
-						{
-						},
-						contentid = -1,
-						dequeueIfLuaFalse = false,
-						enmityValue = 0,
-						eventArgOptionType = 1,
-						eventArgType = 1,
-						eventBuffDuration = 0,
-						eventBuffID = -1,
-						eventChatLine = "",
-						eventEntityContentID = -1,
-						eventEntityID = -1,
-						eventEntityName = "",
-						eventMarkerID = -1,
-						eventOwnerContentID = -1,
-						eventOwnerID = -1,
-						eventOwnerName = "",
-						eventSpellID = -1,
-						eventSpellName = -1,
-						eventTargetContentID = -1,
-						eventTargetID = -1,
-						eventTargetName = "",
-						filterTargetSubtype = "Nearest",
-						filterTargetType = "Tank",
-						gaugeIndex = 1,
-						gaugeValue = 0,
-						hpType = 1,
-						hpValue = 0,
-						inCombatType = 1,
-						inRangeValue = 0,
-						lastSkillID = -1,
-						localMapIDList = 
-						{
-						},
-						localmapid = -1,
-						markerIDList = 
-						{
-						},
-						matchAnyBuff = false,
-						minTargetPercent = false,
-						mpType = 1,
-						mpValue = 0,
-						name = "",
-						partyHpType = 1,
-						partyHpValue = 0,
-						partyMpType = 1,
-						partyMpValue = 0,
-						partyTargetContentID = -1,
-						partyTargetName = "",
-						partyTargetNumber = 1,
-						partyTargetSubType = 1,
-						partyTargetType = "All",
-						rangeCheckSourceSubType = "Nearest",
-						rangeCheckSourceType = "Self",
-						rangeSourceContentID = -1,
-						rangeSourceName = "",
-						setEventTargetSubtype = 1,
-						setFirstMatch = false,
-						spellIDList = 
-						{
-						},
-						uuid = "016bbaed-93bd-30ff-9931-0f68c5a74d98",
+						uuid = "a4e8b0ff-dc39-3fa4-9247-9863f0fa52f7",
 						version = 2,
 					},
 					inheritedObjectUUID = "",
@@ -1570,9 +1478,10 @@ local tbl =
 			timerEndOffset = 0,
 			timerOffset = 0,
 			timerStartOffset = 0,
-			uuid = "fb757fdd-50bf-a301-81a2-8765be2bad0e",
+			uuid = "ffe63229-1888-88a4-bb5e-a609dafe732b",
 			version = 2,
 		},
+		inheritedIndex = 3,
 		inheritedObjectUUID = "",
 	},
 	
@@ -1602,12 +1511,12 @@ local tbl =
 						{
 							
 							{
-								"859edde2-a6f7-d4be-aa0a-933c510b3aaf",
+								"16e9701d-2917-cba7-8d6d-1fa6236c5032",
 								true,
 							},
 							
 							{
-								"fc4b5631-1e53-1b91-b8ba-2c30d455a37a",
+								"7cd2ecdb-0e68-a3a9-8586-aa7f7666bf88",
 								true,
 							},
 						},
@@ -1635,7 +1544,7 @@ local tbl =
 						useItemID = 0,
 						useItemName = "",
 						usePot = false,
-						uuid = "1068efb7-0d49-dc32-aac1-9d56e7a4ff26",
+						uuid = "a28aff47-d4a9-4960-8efb-b12d2215fb60",
 						variableIsHover = false,
 						variableTogglesType = 1,
 						version = 2,
@@ -1666,12 +1575,12 @@ local tbl =
 						{
 							
 							{
-								"9e3691f1-267d-618a-bb59-21d53741c21c",
+								"ad021b17-a018-353f-ba53-d3be8865d147",
 								true,
 							},
 							
 							{
-								"f1671214-237e-4909-a792-b72ce49a7c3b",
+								"4e0c616e-6d54-bbd6-8908-b6781abe1620",
 								true,
 							},
 						},
@@ -1699,7 +1608,7 @@ local tbl =
 						useItemID = 0,
 						useItemName = "",
 						usePot = false,
-						uuid = "f7e1f8a1-f864-3e65-8299-34bee0a7b030",
+						uuid = "2b1aaaa5-0ec5-7f80-8e2a-0d0391499e62",
 						variableIsHover = false,
 						variableTogglesType = 1,
 						version = 2,
@@ -1801,7 +1710,7 @@ local tbl =
 						spellIDList = 
 						{
 						},
-						uuid = "9e3691f1-267d-618a-bb59-21d53741c21c",
+						uuid = "ad021b17-a018-353f-ba53-d3be8865d147",
 						version = 2,
 					},
 					inheritedObjectUUID = "",
@@ -1898,7 +1807,7 @@ local tbl =
 						spellIDList = 
 						{
 						},
-						uuid = "859edde2-a6f7-d4be-aa0a-933c510b3aaf",
+						uuid = "16e9701d-2917-cba7-8d6d-1fa6236c5032",
 						version = 2,
 					},
 					inheritedObjectUUID = "",
@@ -1995,7 +1904,7 @@ local tbl =
 						spellIDList = 
 						{
 						},
-						uuid = "f1671214-237e-4909-a792-b72ce49a7c3b",
+						uuid = "4e0c616e-6d54-bbd6-8908-b6781abe1620",
 						version = 2,
 					},
 					inheritedObjectUUID = "",
@@ -2092,7 +2001,7 @@ local tbl =
 						spellIDList = 
 						{
 						},
-						uuid = "fc4b5631-1e53-1b91-b8ba-2c30d455a37a",
+						uuid = "7cd2ecdb-0e68-a3a9-8586-aa7f7666bf88",
 						version = 2,
 					},
 					inheritedObjectUUID = "",
@@ -2120,9 +2029,10 @@ local tbl =
 			timerEndOffset = 0,
 			timerOffset = 0,
 			timerStartOffset = 0,
-			uuid = "83a4b1f0-1d33-c4db-b8d7-6b0e63d23d0a",
+			uuid = "494ef212-b173-33a0-a5c1-1f509d4c6fbb",
 			version = 2,
 		},
+		inheritedIndex = 4,
 		inheritedObjectUUID = "",
 	},
 	
@@ -8113,90 +8023,6 @@ local tbl =
 					data = 
 					{
 						aType = "Variable",
-						actionID = 140,
-						actionLua = "local target = EntityList:Get(eventArgs.detectionTargetID)\ndata.SpellInQueue = true\ndata.SpellInQueueTarget = target\ndata.SpellInQueueID = 140\ndata.SpellInQueueTime = Now()\nself.used = true",
-						allowInterrupt = false,
-						atomicPriority = true,
-						castAtMouse = false,
-						castPosX = 0,
-						castPosY = 0,
-						castPosZ = 0,
-						clusterMinPercent = false,
-						clusterMinTarget = 1,
-						clusterRadius = 8,
-						clusterRange = 30,
-						conditions = 
-						{
-							
-							{
-								"c5fc3a1c-0e74-806b-8653-87126c91a4e1",
-								true,
-							},
-							
-							{
-								"d1606c9b-f3d1-74e0-b691-b8bb087fccb7",
-								true,
-							},
-							
-							{
-								"841f6065-e175-4387-a191-8d481a99c7fc",
-								true,
-							},
-							
-							{
-								"f5d5b56e-ac41-b24e-b202-b84d8c188738",
-								true,
-							},
-							
-							{
-								"3566179f-33ae-4f6a-9bd2-f6edd7e53a2d",
-								true,
-							},
-							
-							{
-								"e79fec65-62c9-190e-942d-670d79f5bd5e",
-								true,
-							},
-						},
-						endIfUsed = true,
-						fallthrough = false,
-						gVar = "ACR_RikuWHM2_Healbar_Benediction",
-						gVarValue = 1,
-						ignoreWeaveRules = false,
-						isAreaTarget = false,
-						luaNeedsWeaveWindow = false,
-						luaReturnsAction = false,
-						name = "Benediction (Invul)",
-						potType = 1,
-						setTarget = false,
-						showPositionPreview = false,
-						stopCasting = false,
-						stopMoving = false,
-						targetContentID = -1,
-						targetName = "",
-						targetSubType = "Nearest",
-						targetType = "Detection Target",
-						untarget = false,
-						useForWeaving = false,
-						useItem = false,
-						useItemID = 0,
-						useItemName = "",
-						usePot = false,
-						uuid = "98cfacab-3cd8-8651-ab17-8ed0c905ecd2",
-						variableIsHover = true,
-						variableTogglesType = 4,
-						version = 2,
-					},
-					inheritedObjectUUID = "",
-					inheritedOverwrites = 
-					{
-					},
-				},
-				
-				{
-					data = 
-					{
-						aType = "Variable",
 						actionID = 16534,
 						actionLua = "ACR_RikuWHM_Healbar_PlenaryIndulgence = true\nACR_RikuWHM_Healbar_AfflatusRapture = true\nself.used = true",
 						allowInterrupt = false,
@@ -8386,194 +8212,6 @@ local tbl =
 						useItemName = "",
 						usePot = false,
 						uuid = "ffa1578f-68af-5102-b146-f33c9bbce402",
-						variableIsHover = false,
-						variableTogglesType = 4,
-						version = 2,
-					},
-					inheritedObjectUUID = "",
-					inheritedOverwrites = 
-					{
-					},
-				},
-				
-				{
-					data = 
-					{
-						aType = "Variable",
-						actionID = 16534,
-						actionLua = "data.SpellInQueue = true\ndata.SpellInQueueID = 16534\ndata.SpellInQueueTime = Now()\nself.used = true",
-						allowInterrupt = false,
-						atomicPriority = false,
-						castAtMouse = false,
-						castPosX = 0,
-						castPosY = 0,
-						castPosZ = 0,
-						clusterMinPercent = false,
-						clusterMinTarget = 1,
-						clusterRadius = 8,
-						clusterRange = 30,
-						conditions = 
-						{
-							
-							{
-								"6c28fcee-90b9-c6a5-87fc-d6f3c0815b48",
-								true,
-							},
-							
-							{
-								"e79fec65-62c9-190e-942d-670d79f5bd5e",
-								true,
-							},
-							
-							{
-								"8ca11e84-33c4-1403-ae64-fc77fbb35345",
-								true,
-							},
-							
-							{
-								"81b052f5-6ca5-6806-b55a-b9120912fc4d",
-								true,
-							},
-							
-							{
-								"c3603bec-b1f2-53be-933d-7a4a6f1d0ef9",
-								true,
-							},
-							
-							{
-								"0846b0c4-9bcc-25bb-ad58-6f5c1528caa0",
-								true,
-							},
-							
-							{
-								"41a219ce-c24d-ea29-9d2c-5fc3604d9422",
-								true,
-							},
-							
-							{
-								"143f20c6-fad9-7d64-a69a-074ab714f90c",
-								true,
-							},
-						},
-						endIfUsed = true,
-						fallthrough = false,
-						gVar = "ACR_RikuWHM2_Healbar_AfflatusRapture",
-						gVarValue = 1,
-						ignoreWeaveRules = false,
-						isAreaTarget = false,
-						luaNeedsWeaveWindow = false,
-						luaReturnsAction = false,
-						name = "Afflatus Rapture (Rikudou)",
-						potType = 1,
-						setTarget = false,
-						showPositionPreview = false,
-						stopCasting = false,
-						stopMoving = false,
-						targetContentID = -1,
-						targetName = "",
-						targetSubType = "Nearest",
-						targetType = "Self",
-						untarget = false,
-						useForWeaving = false,
-						useItem = false,
-						useItemID = 0,
-						useItemName = "",
-						usePot = false,
-						uuid = "54aedf46-b0a7-a315-996f-11a28716595c",
-						variableIsHover = false,
-						variableTogglesType = 4,
-						version = 2,
-					},
-					inheritedObjectUUID = "",
-					inheritedOverwrites = 
-					{
-					},
-				},
-				
-				{
-					data = 
-					{
-						aType = "Variable",
-						actionID = 16534,
-						actionLua = "data.SpellInQueue = true\ndata.SpellInQueueID = 16534\ndata.SpellInQueueTime = Now()\nself.used = true",
-						allowInterrupt = false,
-						atomicPriority = false,
-						castAtMouse = false,
-						castPosX = 0,
-						castPosY = 0,
-						castPosZ = 0,
-						clusterMinPercent = false,
-						clusterMinTarget = 1,
-						clusterRadius = 8,
-						clusterRange = 30,
-						conditions = 
-						{
-							
-							{
-								"6c28fcee-90b9-c6a5-87fc-d6f3c0815b48",
-								true,
-							},
-							
-							{
-								"e79fec65-62c9-190e-942d-670d79f5bd5e",
-								true,
-							},
-							
-							{
-								"8ca11e84-33c4-1403-ae64-fc77fbb35345",
-								true,
-							},
-							
-							{
-								"81b052f5-6ca5-6806-b55a-b9120912fc4d",
-								true,
-							},
-							
-							{
-								"c3603bec-b1f2-53be-933d-7a4a6f1d0ef9",
-								true,
-							},
-							
-							{
-								"0846b0c4-9bcc-25bb-ad58-6f5c1528caa0",
-								true,
-							},
-							
-							{
-								"c7ec0206-cce5-922d-b6b8-95b50fe9da53",
-								true,
-							},
-							
-							{
-								"41a219ce-c24d-ea29-9d2c-5fc3604d9422",
-								true,
-							},
-						},
-						endIfUsed = true,
-						fallthrough = false,
-						gVar = "ACR_RikuWHM2_Healbar_AfflatusRapture",
-						gVarValue = 1,
-						ignoreWeaveRules = false,
-						isAreaTarget = false,
-						luaNeedsWeaveWindow = false,
-						luaReturnsAction = false,
-						name = "Afflatus Rapture (Rikudou)(II)",
-						potType = 1,
-						setTarget = false,
-						showPositionPreview = false,
-						stopCasting = false,
-						stopMoving = false,
-						targetContentID = -1,
-						targetName = "",
-						targetSubType = "Nearest",
-						targetType = "Self",
-						untarget = false,
-						useForWeaving = false,
-						useItem = false,
-						useItemID = 0,
-						useItemName = "",
-						usePot = false,
-						uuid = "3ef0e224-ffa9-cb55-8586-0eeed06583bb",
 						variableIsHover = false,
 						variableTogglesType = 4,
 						version = 2,
@@ -9128,90 +8766,6 @@ local tbl =
 					data = 
 					{
 						aType = "Variable",
-						actionID = 16531,
-						actionLua = "local target = EntityList:Get(eventArgs.detectionTargetID)\ndata.SpellInQueue = true\ndata.SpellInQueueTarget = target\ndata.SpellInQueueID = 16531\ndata.SpellInQueueTime = Now()\nself.used = true",
-						allowInterrupt = false,
-						atomicPriority = false,
-						castAtMouse = false,
-						castPosX = 0,
-						castPosY = 0,
-						castPosZ = 0,
-						clusterMinPercent = false,
-						clusterMinTarget = 1,
-						clusterRadius = 8,
-						clusterRange = 30,
-						conditions = 
-						{
-							
-							{
-								"45fbd611-d751-db69-843d-bc9530db1cf7",
-								true,
-							},
-							
-							{
-								"d1606c9b-f3d1-74e0-b691-b8bb087fccb7",
-								true,
-							},
-							
-							{
-								"d0abe0d5-e004-fb72-a5a5-c9bd36dcf922",
-								true,
-							},
-							
-							{
-								"0846b0c4-9bcc-25bb-ad58-6f5c1528caa0",
-								true,
-							},
-							
-							{
-								"e79fec65-62c9-190e-942d-670d79f5bd5e",
-								true,
-							},
-							
-							{
-								"3d37890e-c24b-5588-bfd1-fd9cce508e95",
-								true,
-							},
-						},
-						endIfUsed = true,
-						fallthrough = false,
-						gVar = "ACR_RikuWHM2_Healbar_AfflatusSolace",
-						gVarValue = 1,
-						ignoreWeaveRules = false,
-						isAreaTarget = false,
-						luaNeedsWeaveWindow = false,
-						luaReturnsAction = false,
-						name = "Afflatus Solace (Tank)",
-						potType = 1,
-						setTarget = false,
-						showPositionPreview = false,
-						stopCasting = false,
-						stopMoving = false,
-						targetContentID = -1,
-						targetName = "",
-						targetSubType = "Nearest",
-						targetType = "Detection Target",
-						untarget = false,
-						useForWeaving = false,
-						useItem = false,
-						useItemID = 0,
-						useItemName = "",
-						usePot = false,
-						uuid = "08999344-f468-7b75-a3ce-38df2252084c",
-						variableIsHover = true,
-						variableTogglesType = 4,
-						version = 2,
-					},
-					inheritedObjectUUID = "",
-					inheritedOverwrites = 
-					{
-					},
-				},
-				
-				{
-					data = 
-					{
-						aType = "Variable",
 						actionID = 3570,
 						actionLua = "local target = EntityList:Get(eventArgs.detectionTargetID)\ndata.SpellInQueue = true\ndata.SpellInQueueTarget = target\ndata.SpellInQueueID = 3570\ndata.SpellInQueueTime = Now()\nself.used = true",
 						allowInterrupt = false,
@@ -9282,6 +8836,91 @@ local tbl =
 						useItemName = "",
 						usePot = false,
 						uuid = "f478c341-75ea-e697-bf1e-31c88148d7ff",
+						variableIsHover = true,
+						variableTogglesType = 4,
+						version = 2,
+					},
+					inheritedIndex = 11,
+					inheritedObjectUUID = "",
+					inheritedOverwrites = 
+					{
+					},
+				},
+				
+				{
+					data = 
+					{
+						aType = "Variable",
+						actionID = 16531,
+						actionLua = "local target = EntityList:Get(eventArgs.detectionTargetID)\ndata.SpellInQueue = true\ndata.SpellInQueueTarget = target\ndata.SpellInQueueID = 16531\ndata.SpellInQueueTime = Now()\nself.used = true",
+						allowInterrupt = false,
+						atomicPriority = false,
+						castAtMouse = false,
+						castPosX = 0,
+						castPosY = 0,
+						castPosZ = 0,
+						clusterMinPercent = false,
+						clusterMinTarget = 1,
+						clusterRadius = 8,
+						clusterRange = 30,
+						conditions = 
+						{
+							
+							{
+								"45fbd611-d751-db69-843d-bc9530db1cf7",
+								true,
+							},
+							
+							{
+								"d1606c9b-f3d1-74e0-b691-b8bb087fccb7",
+								true,
+							},
+							
+							{
+								"d0abe0d5-e004-fb72-a5a5-c9bd36dcf922",
+								true,
+							},
+							
+							{
+								"0846b0c4-9bcc-25bb-ad58-6f5c1528caa0",
+								true,
+							},
+							
+							{
+								"e79fec65-62c9-190e-942d-670d79f5bd5e",
+								true,
+							},
+							
+							{
+								"3d37890e-c24b-5588-bfd1-fd9cce508e95",
+								true,
+							},
+						},
+						endIfUsed = true,
+						fallthrough = false,
+						gVar = "ACR_RikuWHM2_Healbar_AfflatusSolace",
+						gVarValue = 1,
+						ignoreWeaveRules = false,
+						isAreaTarget = false,
+						luaNeedsWeaveWindow = false,
+						luaReturnsAction = false,
+						name = "Afflatus Solace (Tank)",
+						potType = 1,
+						setTarget = false,
+						showPositionPreview = false,
+						stopCasting = false,
+						stopMoving = false,
+						targetContentID = -1,
+						targetName = "",
+						targetSubType = "Nearest",
+						targetType = "Detection Target",
+						untarget = false,
+						useForWeaving = false,
+						useItem = false,
+						useItemID = 0,
+						useItemName = "",
+						usePot = false,
+						uuid = "08999344-f468-7b75-a3ce-38df2252084c",
 						variableIsHover = true,
 						variableTogglesType = 4,
 						version = 2,
@@ -9548,100 +9187,6 @@ local tbl =
 					data = 
 					{
 						aType = "Variable",
-						actionID = 16531,
-						actionLua = "local target = EntityList:Get(eventArgs.detectionTargetID)\ndata.SpellInQueue = true\ndata.SpellInQueueTarget = target\ndata.SpellInQueueID = 16531\ndata.SpellInQueueTime = Now()\nself.used = true",
-						allowInterrupt = false,
-						atomicPriority = false,
-						castAtMouse = false,
-						castPosX = 0,
-						castPosY = 0,
-						castPosZ = 0,
-						clusterMinPercent = false,
-						clusterMinTarget = 1,
-						clusterRadius = 8,
-						clusterRange = 30,
-						conditions = 
-						{
-							
-							{
-								"45fbd611-d751-db69-843d-bc9530db1cf7",
-								true,
-							},
-							
-							{
-								"76ecdb59-5e5a-d807-9d5f-89067d8412f4",
-								true,
-							},
-							
-							{
-								"242683cc-2fbd-98ff-aabc-e7fe480c24ff",
-								true,
-							},
-							
-							{
-								"e79fec65-62c9-190e-942d-670d79f5bd5e",
-								true,
-							},
-							
-							{
-								"1a3a6a64-7204-2c2e-8ff0-b4f2b4b171e3",
-								true,
-							},
-							
-							{
-								"45ae4d30-ffa4-9fea-851f-1e0efe5020c4",
-								true,
-							},
-							
-							{
-								"0846b0c4-9bcc-25bb-ad58-6f5c1528caa0",
-								true,
-							},
-							
-							{
-								"85815a17-8dc2-6c47-9c7c-94c37d3aecf2",
-								true,
-							},
-						},
-						endIfUsed = true,
-						fallthrough = false,
-						gVar = "ACR_RikuWHM2_Healbar_AfflatusSolace",
-						gVarValue = 1,
-						ignoreWeaveRules = false,
-						isAreaTarget = false,
-						luaNeedsWeaveWindow = false,
-						luaReturnsAction = false,
-						name = "Afflatus Solace (Party)",
-						potType = 1,
-						setTarget = false,
-						showPositionPreview = false,
-						stopCasting = false,
-						stopMoving = false,
-						targetContentID = -1,
-						targetName = "",
-						targetSubType = "Nearest",
-						targetType = "Detection Target",
-						untarget = false,
-						useForWeaving = false,
-						useItem = false,
-						useItemID = 0,
-						useItemName = "",
-						usePot = false,
-						uuid = "8edf309f-0bbe-51cc-9d0f-2712b6cf7de4",
-						variableIsHover = true,
-						variableTogglesType = 4,
-						version = 2,
-					},
-					inheritedObjectUUID = "",
-					inheritedOverwrites = 
-					{
-					},
-				},
-				
-				{
-					data = 
-					{
-						aType = "Variable",
 						actionID = 3570,
 						actionLua = "local target = EntityList:Get(eventArgs.detectionTargetID)\ndata.SpellInQueue = true\ndata.SpellInQueueTarget = target\ndata.SpellInQueueID = 3570\ndata.SpellInQueueTime = Now()\nself.used = true",
 						allowInterrupt = false,
@@ -9722,6 +9267,101 @@ local tbl =
 						useItemName = "",
 						usePot = false,
 						uuid = "01d15a9e-5347-ddca-8575-7f8e7c6204ef",
+						variableIsHover = true,
+						variableTogglesType = 4,
+						version = 2,
+					},
+					inheritedIndex = 16,
+					inheritedObjectUUID = "",
+					inheritedOverwrites = 
+					{
+					},
+				},
+				
+				{
+					data = 
+					{
+						aType = "Variable",
+						actionID = 16531,
+						actionLua = "local target = EntityList:Get(eventArgs.detectionTargetID)\ndata.SpellInQueue = true\ndata.SpellInQueueTarget = target\ndata.SpellInQueueID = 16531\ndata.SpellInQueueTime = Now()\nself.used = true",
+						allowInterrupt = false,
+						atomicPriority = false,
+						castAtMouse = false,
+						castPosX = 0,
+						castPosY = 0,
+						castPosZ = 0,
+						clusterMinPercent = false,
+						clusterMinTarget = 1,
+						clusterRadius = 8,
+						clusterRange = 30,
+						conditions = 
+						{
+							
+							{
+								"45fbd611-d751-db69-843d-bc9530db1cf7",
+								true,
+							},
+							
+							{
+								"76ecdb59-5e5a-d807-9d5f-89067d8412f4",
+								true,
+							},
+							
+							{
+								"242683cc-2fbd-98ff-aabc-e7fe480c24ff",
+								true,
+							},
+							
+							{
+								"e79fec65-62c9-190e-942d-670d79f5bd5e",
+								true,
+							},
+							
+							{
+								"1a3a6a64-7204-2c2e-8ff0-b4f2b4b171e3",
+								true,
+							},
+							
+							{
+								"45ae4d30-ffa4-9fea-851f-1e0efe5020c4",
+								true,
+							},
+							
+							{
+								"0846b0c4-9bcc-25bb-ad58-6f5c1528caa0",
+								true,
+							},
+							
+							{
+								"85815a17-8dc2-6c47-9c7c-94c37d3aecf2",
+								true,
+							},
+						},
+						endIfUsed = true,
+						fallthrough = false,
+						gVar = "ACR_RikuWHM2_Healbar_AfflatusSolace",
+						gVarValue = 1,
+						ignoreWeaveRules = false,
+						isAreaTarget = false,
+						luaNeedsWeaveWindow = false,
+						luaReturnsAction = false,
+						name = "Afflatus Solace (Party)",
+						potType = 1,
+						setTarget = false,
+						showPositionPreview = false,
+						stopCasting = false,
+						stopMoving = false,
+						targetContentID = -1,
+						targetName = "",
+						targetSubType = "Nearest",
+						targetType = "Detection Target",
+						untarget = false,
+						useForWeaving = false,
+						useItem = false,
+						useItemID = 0,
+						useItemName = "",
+						usePot = false,
+						uuid = "8edf309f-0bbe-51cc-9d0f-2712b6cf7de4",
 						variableIsHover = true,
 						variableTogglesType = 4,
 						version = 2,
@@ -10009,100 +9649,6 @@ local tbl =
 						useItemName = "",
 						usePot = false,
 						uuid = "b59eefd6-dec4-2997-affe-713a7e704f07",
-						variableIsHover = true,
-						variableTogglesType = 4,
-						version = 2,
-					},
-					inheritedObjectUUID = "",
-					inheritedOverwrites = 
-					{
-					},
-				},
-				
-				{
-					data = 
-					{
-						aType = "Variable",
-						actionID = 16531,
-						actionLua = "local target = EntityList:Get(eventArgs.detectionTargetID)\ndata.SpellInQueue = true\ndata.SpellInQueueTarget = target\ndata.SpellInQueueID = 16531\ndata.SpellInQueueTime = Now()\nself.used = true",
-						allowInterrupt = false,
-						atomicPriority = false,
-						castAtMouse = false,
-						castPosX = 0,
-						castPosY = 0,
-						castPosZ = 0,
-						clusterMinPercent = false,
-						clusterMinTarget = 1,
-						clusterRadius = 8,
-						clusterRange = 30,
-						conditions = 
-						{
-							
-							{
-								"45fbd611-d751-db69-843d-bc9530db1cf7",
-								true,
-							},
-							
-							{
-								"8ca11e84-33c4-1403-ae64-fc77fbb35345",
-								true,
-							},
-							
-							{
-								"81b052f5-6ca5-6806-b55a-b9120912fc4d",
-								true,
-							},
-							
-							{
-								"c3603bec-b1f2-53be-933d-7a4a6f1d0ef9",
-								true,
-							},
-							
-							{
-								"0846b0c4-9bcc-25bb-ad58-6f5c1528caa0",
-								true,
-							},
-							
-							{
-								"41a219ce-c24d-ea29-9d2c-5fc3604d9422",
-								true,
-							},
-							
-							{
-								"e79fec65-62c9-190e-942d-670d79f5bd5e",
-								true,
-							},
-							
-							{
-								"c64e6e59-914b-755e-9894-0b742b7ea58f",
-								true,
-							},
-						},
-						endIfUsed = true,
-						fallthrough = false,
-						gVar = "ACR_RikuWHM2_Healbar_AfflatusSolace",
-						gVarValue = 1,
-						ignoreWeaveRules = false,
-						isAreaTarget = false,
-						luaNeedsWeaveWindow = false,
-						luaReturnsAction = false,
-						name = "Afflatus Solace (Rikudou)",
-						potType = 1,
-						setTarget = false,
-						showPositionPreview = false,
-						stopCasting = false,
-						stopMoving = false,
-						targetContentID = -1,
-						targetName = "",
-						targetSubType = "Nearest",
-						targetType = "Detection Target",
-						untarget = false,
-						useForWeaving = false,
-						useItem = false,
-						useItemID = 0,
-						useItemName = "",
-						usePot = false,
-						uuid = "ebe85a00-a2dd-46ac-befc-e1ea7884ea45",
 						variableIsHover = true,
 						variableTogglesType = 4,
 						version = 2,
@@ -10716,6 +10262,7 @@ local tbl =
 						uuid = "460ab166-55d3-49ac-959b-5149b179acbf",
 						version = 2,
 					},
+					inheritedIndex = 6,
 					inheritedObjectUUID = "",
 					inheritedOverwrites = 
 					{
@@ -11740,7 +11287,7 @@ local tbl =
 						clusterRadius = 8,
 						clusterRange = 30,
 						comparator = 2,
-						conditionLua = "local target = EntityList:Get(eventArgs.detectionTargetID)\n\nif not target then return false end\n\nif target.HP.percent >= 100 then return false end\n\nif TensorCore.isTank(target) then return false end\n\nif target.HP.percent <= 99 then\n\nlocal PartyBuff = 1\nlocal HealingMagicPotency1 = Player:GetStats(34)\nlocal HealingMagicPotency2 = (569 * ((HealingMagicPotency1 * PartyBuff) - 390) / 1522) + 100\nlocal Potency = 700\nlocal Determination1 = Player:GetStats(44)\nlocal Determination2 = (140 * (Determination1 - 390) / 1900 + 1000)\nlocal Healing1 = (((Potency * HealingMagicPotency2 * Determination2) / 100) / 1000)\nlocal WeaponDamage1 = Inventory:Get(1000):GetList()[1]:GetStat(12, true)\nlocal WeaponDamage2 = ((390 * 115 / 1000) + WeaponDamage1)\nlocal Healing2 = (((((Healing1 * 1000) / 1000) * WeaponDamage2) / 100) * 130) / 100\n\nreturn (target.HP.max - target.HP.current) >= Healing2 end\n\nreturn false\n\n--d(PartyBuff)\n\n--(RoseCore.Settings.WhmEvPartyOverhealSingle/100)",
+						conditionLua = "local target = EntityList:Get(eventArgs.detectionTargetID)\n\nif not target then return false end\n\nif target.HP.percent >= 100 then return false end\n\nif target.HP.percent <= 99 then\n\nlocal PartyBuff = 1\nlocal HealingMagicPotency1 = Player:GetStats(34)\nlocal HealingMagicPotency2 = (569 * ((HealingMagicPotency1 * PartyBuff) - 390) / 1522) + 100\nlocal Potency = 700\nlocal Determination1 = Player:GetStats(44)\nlocal Determination2 = (140 * (Determination1 - 390) / 1900 + 1000)\nlocal Healing1 = (((Potency * HealingMagicPotency2 * Determination2) / 100) / 1000)\nlocal WeaponDamage1 = Inventory:Get(1000):GetList()[1]:GetStat(12, true)\nlocal WeaponDamage2 = ((390 * 115 / 1000) + WeaponDamage1)\nlocal Healing2 = (((((Healing1 * 1000) / 1000) * WeaponDamage2) / 100) * 130) / 100\n\nreturn (target.HP.max - target.HP.current) >= Healing2 end\n\nreturn false\n\n--d(PartyBuff)\n\n--(RoseCore.Settings.WhmEvPartyOverhealSingle/100)",
 						conditionType = 2,
 						conditions = 
 						{
@@ -14257,7 +13804,7 @@ local tbl =
 						buffIDList = 
 						{
 						},
-						category = "Party",
+						category = "Lua",
 						channelCheckSpellID = -1,
 						channelCheckSpellIDList = 
 						{
@@ -14323,7 +13870,7 @@ local tbl =
 						partyTargetContentID = -1,
 						partyTargetName = "",
 						partyTargetNumber = 1,
-						partyTargetSubType = 1,
+						partyTargetSubType = "Lowest HP",
 						partyTargetType = "Detection Target",
 						rangeCheckSourceSubType = "Nearest",
 						rangeCheckSourceType = "Self",
@@ -24486,85 +24033,6 @@ local tbl =
 						useItemName = "",
 						usePot = false,
 						uuid = "35ca89e1-e048-c0c9-b74c-a4690528504f",
-						variableIsHover = true,
-						variableTogglesType = 4,
-						version = 2,
-					},
-					inheritedObjectUUID = "",
-					inheritedOverwrites = 
-					{
-					},
-				},
-				
-				{
-					data = 
-					{
-						aType = "Variable",
-						actionID = 3569,
-						actionLua = "",
-						allowInterrupt = false,
-						atomicPriority = false,
-						castAtMouse = false,
-						castPosX = 0,
-						castPosY = 0,
-						castPosZ = 0,
-						clusterMinPercent = true,
-						clusterMinTarget = 75,
-						clusterRadius = 8,
-						clusterRange = 30,
-						conditions = 
-						{
-							
-							{
-								"0ade39b1-6f4d-04b1-9923-d3ea08b19568",
-								true,
-							},
-							
-							{
-								"9976ca0d-b36a-0ad2-adbe-a16528708341",
-								true,
-							},
-							
-							{
-								"c213eb77-c9a8-6e34-9b80-9f530f6db39a",
-								true,
-							},
-							
-							{
-								"79e0af89-91e1-494b-8a2f-0662548dedee",
-								true,
-							},
-							
-							{
-								"0844b063-b2b6-d840-8506-42b3dc853a63",
-								true,
-							},
-						},
-						endIfUsed = true,
-						fallthrough = false,
-						gVar = "ACR_RikuWHM2_Healbar_Lilybell",
-						gVarValue = 1,
-						ignoreWeaveRules = false,
-						isAreaTarget = false,
-						luaNeedsWeaveWindow = false,
-						luaReturnsAction = false,
-						name = "Liturgy of the Bell",
-						potType = 1,
-						setTarget = false,
-						showPositionPreview = false,
-						stopCasting = false,
-						stopMoving = false,
-						targetContentID = -1,
-						targetName = "",
-						targetSubType = "Nearest",
-						targetType = "Detection Target",
-						untarget = false,
-						useForWeaving = false,
-						useItem = false,
-						useItemID = 0,
-						useItemName = "",
-						usePot = false,
-						uuid = "35de22b4-7762-fb2d-b508-de5f1f227ba9",
 						variableIsHover = true,
 						variableTogglesType = 4,
 						version = 2,

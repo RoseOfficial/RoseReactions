@@ -2043,7 +2043,7 @@ local tbl =
 			conditions = 
 			{
 			},
-			enabled = true,
+			enabled = false,
 			eventType = 11,
 			execute = "data.LastMapChange = Now()\nself.used = true",
 			executeType = 2,
@@ -9049,7 +9049,7 @@ local tbl =
 						buffIDList = 
 						{
 						},
-						category = "Party",
+						category = "Lua",
 						channelCheckSpellID = -1,
 						channelCheckSpellIDList = 
 						{
@@ -9062,7 +9062,7 @@ local tbl =
 						clusterRadius = 8,
 						clusterRange = 30,
 						comparator = 2,
-						conditionLua = "local target = EntityList:Get(eventArgs.detectionTargetID)\nlocal potency = 700\n\nif not target then return false end\n\nif target.HP.percent >= 100 then return false end\n\nif Player.levels[33] ~= Player.level and Player.level <= 10 then\n    return (target.HP.percent/100) <= 0.7\nend\n\nif Player.level <= 26 then potency = 400 end\n\nif Player.levels[33] ~= Player.level and Player.level > 10 and Player.level <= 60 then\n    local x = Player.level\n    local formula = ((-7.291666666666*(10^-9)*(x^3))+(8.749999999999*(10^-7)*(x^2))-(0.0000442708*x)+(0.0015625))\n    local HealInPercent\t= (formula * potency) - (0.0005696 * (80 - Player.levels[33]))\n    return (target.HP.current + (Player.HP.max * HealInPercent * (math.random(975, 1025) / 1000))) / target.HP.max <= 1.06\nend\n\nreturn TensorCore.getPredictedDirectHealHP(target, round(potency,0), false, false, false, 0) <= 1.06",
+						conditionLua = "local target = EntityList:Get(eventArgs.detectionTargetID)\n\nif not target then return false end\n\nif target.HP.percent >= 100 then return false end\n\nif target.HP.percent <= 99 then\n\nlocal PartyBuff = 1\nlocal HealingMagicPotency1 = Player:GetStats(34)\nlocal HealingMagicPotency2 = (569 * ((HealingMagicPotency1 * PartyBuff) - 390) / 1522) + 100\nlocal Potency = 800\nlocal Determination1 = Player:GetStats(44)\nlocal Determination2 = (140 * (Determination1 - 390) / 1900 + 1000)\nlocal Healing1 = (((Potency * HealingMagicPotency2 * Determination2) / 100) / 1000)\nlocal WeaponDamage1 = Inventory:Get(1000):GetList()[1]:GetStat(12, true)\nlocal WeaponDamage2 = ((390 * 115 / 1000) + WeaponDamage1)\nlocal Healing2 = (((((Healing1 * 1000) / 1000) * WeaponDamage2) / 100) * 130) / 100\n\nreturn (target.HP.max - target.HP.current) >= Healing2 end\n\nreturn false\n\n--d(PartyBuff)\n\n--(RoseCore.Settings.WhmEvPartyOverhealSingle/100)",
 						conditionType = 2,
 						conditions = 
 						{
@@ -9146,7 +9146,7 @@ local tbl =
 						buffIDList = 
 						{
 						},
-						category = "Party",
+						category = "Lua",
 						channelCheckSpellID = -1,
 						channelCheckSpellIDList = 
 						{
@@ -9159,7 +9159,7 @@ local tbl =
 						clusterRadius = 8,
 						clusterRange = 30,
 						comparator = 2,
-						conditionLua = "local target = EntityList:Get(eventArgs.detectionTargetID)\n\nif not target then return false end\n\nif target.HP.percent >= 100 then return false end\n\nlocal potency = 200\nlocal hpotency = 150\nif TensorCore.hasBuff(Player, 840) then\n    return TensorCore.getPredictedDirectHealHP(target, potency, false, false, false, 0) + TensorCore.calcHoT(hpotency, 7, false, false, false) / target.hp.max <= 1.00\nelse\n    return TensorCore.getPredictedDirectHealHP(target, potency, false, false, false, 0) <= 1\nend",
+						conditionLua = "local target = EntityList:Get(eventArgs.detectionTargetID)\n\nif not target then return false end\n\nif target.HP.percent >= 100 then return false end\n\nif target.HP.percent <= 99 then\n\nlocal PartyBuff = 1\nlocal HealingMagicPotency1 = Player:GetStats(34)\nlocal HealingMagicPotency2 = (569 * ((HealingMagicPotency1 * PartyBuff) - 390) / 1522) + 100\nlocal Potency = 200\nlocal Determination1 = Player:GetStats(44)\nlocal Determination2 = (140 * (Determination1 - 390) / 1900 + 1000)\nlocal Healing1 = (((Potency * HealingMagicPotency2 * Determination2) / 100) / 1000)\nlocal WeaponDamage1 = Inventory:Get(1000):GetList()[1]:GetStat(12, true)\nlocal WeaponDamage2 = ((390 * 115 / 1000) + WeaponDamage1)\nlocal Healing2 = (((((Healing1 * 1000) / 1000) * WeaponDamage2) / 100) * 130) / 100\n\nreturn (target.HP.max - target.HP.current) >= Healing2 end\n\nreturn false\n\n--d(PartyBuff)\n\n--(RoseCore.Settings.WhmEvPartyOverhealSingle/100)",
 						conditionType = 2,
 						conditions = 
 						{
@@ -16164,6 +16164,7 @@ local tbl =
 			uuid = "3d29ae64-59ae-00ed-9149-6935811ad369",
 			version = 2,
 		},
+		inheritedIndex = 17,
 		inheritedObjectUUID = "",
 	},
 	
@@ -16878,6 +16879,7 @@ local tbl =
 						variableTogglesType = 1,
 						version = 2,
 					},
+					inheritedIndex = 9,
 					inheritedObjectUUID = "",
 					inheritedOverwrites = 
 					{
@@ -17054,7 +17056,7 @@ local tbl =
 						clusterRadius = 8,
 						clusterRange = 30,
 						comparator = 2,
-						conditionLua = "local target = EntityList:Get(eventArgs.detectionTargetID)\nlocal potency = 720\n\nif not target then return false end\n\nif target.HP.percent >= 100 then return false end\n\nif Player.levels[28] ~= Player.level and Player.level <= 10 then\n    return (target.HP.percent/100) <= 0.8\nend\n\nif Player.levels[28] ~= Player.level and Player.level > 10 and Player.level <= 60 then\n    local x = Player.level\n    local formula = ((-7.291666666666*(10^-9)*(x^3))+(8.749999999999*(10^-7)*(x^2))-(0.0000442708*x)+(0.0015625))\n    local HealInPercent\t= (formula * potency) - (0.0005696 * (80 - Player.levels[33]))\n    return (target.HP.current + (Player.HP.max * HealInPercent * (math.random(975, 1025) / 1000))) / target.HP.max <= 1.02\nend\n\nreturn TensorCore.getPredictedDirectHealHP(target, round(potency,0), false, false, false, 2) <= 1.02",
+						conditionLua = "local target = EntityList:Get(eventArgs.detectionTargetID)\n\nif not target then return false end\n\nif target.HP.percent >= 100 then return false end\n\nif target.HP.percent <= 99 then\n\nlocal PartyBuff = 1\nlocal HealingMagicPotency1 = Player:GetStats(34)\nlocal HealingMagicPotency2 = (569 * ((HealingMagicPotency1 * PartyBuff) - 390) / 1522) + 100\nlocal Potency = 720\nlocal Determination1 = Player:GetStats(44)\nlocal Determination2 = (140 * (Determination1 - 390) / 1900 + 1000)\nlocal Healing1 = (((Potency * HealingMagicPotency2 * Determination2) / 100) / 1000)\nlocal WeaponDamage1 = Inventory:Get(1000):GetList()[1]:GetStat(12, true)\nlocal WeaponDamage2 = ((390 * 115 / 1000) + WeaponDamage1)\nlocal Healing2 = (((((Healing1 * 1000) / 1000) * WeaponDamage2) / 100) * 130) / 100\n\nreturn (target.HP.max - target.HP.current) >= Healing2 end\n\nreturn false\n\n--d(PartyBuff)\n\n--(RoseCore.Settings.WhmEvPartyOverhealSingle/100)",
 						conditionType = 2,
 						conditions = 
 						{
@@ -17151,7 +17153,7 @@ local tbl =
 						clusterRadius = 8,
 						clusterRange = 30,
 						comparator = 2,
-						conditionLua = "local target = EntityList:Get(eventArgs.detectionTargetID)\nlocal potency = 330\n\nif not target then return false end\n\nif target.HP.percent >= 100 then return false end\n\nif Player.levels[33] ~= Player.level and Player.level <= 10 then\n    return (target.HP.percent/100) <= 0.8\nend\n\nif Player.levels[33] ~= Player.level and Player.level > 10 and Player.level <= 60 then\n    local x = Player.level\n    local formula = ((-7.291666666666*(10^-9)*(x^3))+(8.749999999999*(10^-7)*(x^2))-(0.0000442708*x)+(0.0015625))\n    local HealInPercent\t= (formula * potency) - (0.0005696 * (80 - Player.levels[33]))\n    return (target.HP.current + (Player.HP.max * HealInPercent * (math.random(975, 1025) / 1000))) / target.HP.max <= 1.02\nend\n\nreturn TensorCore.getPredictedDirectHealHP(target, round(potency,0), false, false, false, 2) <= 1.02",
+						conditionLua = "local target = EntityList:Get(eventArgs.detectionTargetID)\n\nif not target then return false end\n\nif target.HP.percent >= 100 then return false end\n\nif target.HP.percent <= 99 then\n\nlocal PartyBuff = 1\nlocal HealingMagicPotency1 = Player:GetStats(34)\nlocal HealingMagicPotency2 = (569 * ((HealingMagicPotency1 * PartyBuff) - 390) / 1522) + 100\nlocal Potency = 400\nlocal Determination1 = Player:GetStats(44)\nlocal Determination2 = (140 * (Determination1 - 390) / 1900 + 1000)\nlocal Healing1 = (((Potency * HealingMagicPotency2 * Determination2) / 100) / 1000)\nlocal WeaponDamage1 = Inventory:Get(1000):GetList()[1]:GetStat(12, true)\nlocal WeaponDamage2 = ((390 * 115 / 1000) + WeaponDamage1)\nlocal Healing2 = (((((Healing1 * 1000) / 1000) * WeaponDamage2) / 100) * 130) / 100\n\nreturn (target.HP.max - target.HP.current) >= Healing2 end\n\nreturn false\n\n--d(PartyBuff)\n\n--(RoseCore.Settings.WhmEvPartyOverhealSingle/100)",
 						conditionType = 2,
 						conditions = 
 						{
@@ -21616,7 +21618,7 @@ local tbl =
 						clusterRadius = 8,
 						clusterRange = 30,
 						comparator = 2,
-						conditionLua = "local target = EntityList:Get(eventArgs.detectionTargetID)\n\nif not target then return false end\n\nif target.HP.percent >= 100 then return false end\n\nlocal potency = 700\nreturn TensorCore.getPredictedDirectHealHP(target, potency, false, false, false, 30) <= 1.05",
+						conditionLua = "local target = EntityList:Get(eventArgs.detectionTargetID)\n\nif not target then return false end\n\nif target.HP.percent >= 100 then return false end\n\nif target.HP.percent <= 99 then\n\nlocal PartyBuff = 1\nlocal HealingMagicPotency1 = Player:GetStats(34)\nlocal HealingMagicPotency2 = (569 * ((HealingMagicPotency1 * PartyBuff) - 390) / 1522) + 100\nlocal Potency = 800\nlocal Determination1 = Player:GetStats(44)\nlocal Determination2 = (140 * (Determination1 - 390) / 1900 + 1000)\nlocal Healing1 = (((Potency * HealingMagicPotency2 * Determination2) / 100) / 1000)\nlocal WeaponDamage1 = Inventory:Get(1000):GetList()[1]:GetStat(12, true)\nlocal WeaponDamage2 = ((390 * 115 / 1000) + WeaponDamage1)\nlocal Healing2 = (((((Healing1 * 1000) / 1000) * WeaponDamage2) / 100) * 130) / 100\n\nreturn (target.HP.max - target.HP.current) >= Healing2 end\n\nreturn false\n\n--d(PartyBuff)\n\n--(RoseCore.Settings.WhmEvPartyOverhealSingle/100)",
 						conditionType = 2,
 						conditions = 
 						{
