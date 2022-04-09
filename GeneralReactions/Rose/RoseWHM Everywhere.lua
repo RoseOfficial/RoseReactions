@@ -415,7 +415,7 @@ local tbl =
 			mechanicTime = 0,
 			name = "Reset hotbar after fight",
 			randomOffset = 0,
-			throttleTime = 250,
+			throttleTime = 1000,
 			timeRandomRange = false,
 			timeRange = false,
 			timelineIndex = 0,
@@ -707,7 +707,7 @@ local tbl =
 			mechanicTime = 0,
 			name = "Reset hotbar on death",
 			randomOffset = 0,
-			throttleTime = 0,
+			throttleTime = 1000,
 			timeRandomRange = false,
 			timeRange = false,
 			timelineIndex = 0,
@@ -999,7 +999,7 @@ local tbl =
 			mechanicTime = 0,
 			name = "Reset everything on wipe",
 			randomOffset = 0,
-			throttleTime = 0,
+			throttleTime = 1000,
 			timeRandomRange = false,
 			timeRange = false,
 			timelineIndex = 0,
@@ -1651,7 +1651,7 @@ local tbl =
 			mechanicTime = 0,
 			name = "Asylum/Liturgy of the Bell/Afflatus Rapture",
 			randomOffset = 0,
-			throttleTime = 0,
+			throttleTime = 1000,
 			timeRandomRange = false,
 			timeRange = false,
 			timelineIndex = 0,
@@ -1697,6 +1697,402 @@ local tbl =
 			uuid = "da318088-b7a5-f3c7-ad99-bdaaac43c5a7",
 			version = 2,
 		},
+		inheritedObjectUUID = "",
+	},
+	
+	{
+		data = 
+		{
+			actions = 
+			{
+				
+				{
+					data = 
+					{
+						aType = "Skill",
+						actionID = 3,
+						actionLua = "",
+						allowInterrupt = false,
+						atomicPriority = false,
+						castAtMouse = false,
+						castPosX = 0,
+						castPosY = 0,
+						castPosZ = 0,
+						clusterMinPercent = false,
+						clusterMinTarget = 1,
+						clusterRadius = 8,
+						clusterRange = 30,
+						conditions = 
+						{
+							
+							{
+								"57f3eea6-9052-1ef3-873c-54027b2109a8",
+								true,
+							},
+							
+							{
+								"98f0c851-418d-eed0-8fe8-3e0a713ea394",
+								true,
+							},
+							
+							{
+								"7278fdaf-a489-3c10-a6c7-3181d1eec43a",
+								true,
+							},
+						},
+						endIfUsed = true,
+						fallthrough = false,
+						gVar = "",
+						gVarValue = 1,
+						ignoreWeaveRules = false,
+						isAreaTarget = false,
+						luaNeedsWeaveWindow = false,
+						luaReturnsAction = false,
+						name = "",
+						potType = 1,
+						setTarget = false,
+						showPositionPreview = false,
+						stopCasting = false,
+						stopMoving = false,
+						targetContentID = -1,
+						targetName = "",
+						targetSubType = "Nearest",
+						targetType = "Self",
+						untarget = false,
+						useForWeaving = false,
+						useItem = false,
+						useItemID = 0,
+						useItemName = "",
+						usePot = false,
+						uuid = "fb1edaf4-6f2f-a647-88b3-ea2d614bc17b",
+						variableIsHover = false,
+						variableTogglesType = 1,
+						version = 2,
+					},
+					inheritedObjectUUID = "",
+					inheritedOverwrites = 
+					{
+					},
+				},
+			},
+			conditions = 
+			{
+				
+				{
+					data = 
+					{
+						actionCDValue = 0,
+						actionID = -1,
+						buffCheckType = 1,
+						buffDuration = 0,
+						buffID = -1,
+						buffIDList = 
+						{
+						},
+						category = "Lua",
+						channelCheckSpellID = -1,
+						channelCheckSpellIDList = 
+						{
+						},
+						channelCheckTimeRemain = 0,
+						channelCheckType = 1,
+						clusterMinPercent = false,
+						clusterMinTarget = 1,
+						clusterOriginalTarget = false,
+						clusterRadius = 8,
+						clusterRange = 30,
+						comparator = 1,
+						conditionLua = "return Player:IsMoving()",
+						conditionType = 1,
+						conditions = 
+						{
+						},
+						contentid = -1,
+						dequeueIfLuaFalse = false,
+						enmityValue = 0,
+						eventArgOptionType = 1,
+						eventArgType = 1,
+						eventBuffDuration = 0,
+						eventBuffID = -1,
+						eventChatLine = "",
+						eventEntityContentID = -1,
+						eventEntityID = -1,
+						eventEntityName = "",
+						eventMarkerID = -1,
+						eventOwnerContentID = -1,
+						eventOwnerID = -1,
+						eventOwnerName = "",
+						eventSpellID = -1,
+						eventSpellName = -1,
+						eventTargetContentID = -1,
+						eventTargetID = -1,
+						eventTargetName = "",
+						filterTargetSubtype = "Nearest",
+						filterTargetType = "Self",
+						gaugeIndex = 1,
+						gaugeValue = 0,
+						hpType = 1,
+						hpValue = 0,
+						inCombatType = 1,
+						inRangeValue = 0,
+						lastSkillID = -1,
+						localMapIDList = 
+						{
+						},
+						localmapid = -1,
+						markerIDList = 
+						{
+						},
+						matchAnyBuff = false,
+						minTargetPercent = false,
+						mpType = 1,
+						mpValue = 0,
+						name = "IsMoving [TRUE]",
+						partyHpType = 1,
+						partyHpValue = 0,
+						partyMpType = 1,
+						partyMpValue = 0,
+						partyTargetContentID = -1,
+						partyTargetName = "",
+						partyTargetNumber = 1,
+						partyTargetSubType = "Nearest",
+						partyTargetType = "All",
+						rangeCheckSourceSubType = "Nearest",
+						rangeCheckSourceType = "Self",
+						rangeSourceContentID = -1,
+						rangeSourceName = "",
+						setEventTargetSubtype = 1,
+						setFirstMatch = false,
+						spellIDList = 
+						{
+						},
+						uuid = "57f3eea6-9052-1ef3-873c-54027b2109a8",
+						version = 2,
+					},
+					inheritedIndex = 1,
+					inheritedObjectUUID = "",
+					inheritedOverwrites = 
+					{
+					},
+				},
+				
+				{
+					data = 
+					{
+						actionCDValue = 1,
+						actionID = 3,
+						buffCheckType = 1,
+						buffDuration = 0,
+						buffID = -1,
+						buffIDList = 
+						{
+						},
+						category = "Self",
+						channelCheckSpellID = -1,
+						channelCheckSpellIDList = 
+						{
+						},
+						channelCheckTimeRemain = 0,
+						channelCheckType = 1,
+						clusterMinPercent = false,
+						clusterMinTarget = 1,
+						clusterOriginalTarget = false,
+						clusterRadius = 8,
+						clusterRange = 30,
+						comparator = 2,
+						conditionLua = "",
+						conditionType = 4,
+						conditions = 
+						{
+						},
+						contentid = -1,
+						dequeueIfLuaFalse = false,
+						enmityValue = 0,
+						eventArgOptionType = 1,
+						eventArgType = 1,
+						eventBuffDuration = 0,
+						eventBuffID = -1,
+						eventChatLine = "",
+						eventEntityContentID = -1,
+						eventEntityID = -1,
+						eventEntityName = "",
+						eventMarkerID = -1,
+						eventOwnerContentID = -1,
+						eventOwnerID = -1,
+						eventOwnerName = "",
+						eventSpellID = -1,
+						eventSpellName = -1,
+						eventTargetContentID = -1,
+						eventTargetID = -1,
+						eventTargetName = "",
+						filterTargetSubtype = "Nearest",
+						filterTargetType = "Self",
+						gaugeIndex = 1,
+						gaugeValue = 0,
+						hpType = 1,
+						hpValue = 0,
+						inCombatType = 1,
+						inRangeValue = 0,
+						lastSkillID = -1,
+						localMapIDList = 
+						{
+						},
+						localmapid = -1,
+						markerIDList = 
+						{
+						},
+						matchAnyBuff = false,
+						minTargetPercent = false,
+						mpType = 1,
+						mpValue = 0,
+						name = "Sprint not on CD",
+						partyHpType = 1,
+						partyHpValue = 0,
+						partyMpType = 1,
+						partyMpValue = 0,
+						partyTargetContentID = -1,
+						partyTargetName = "",
+						partyTargetNumber = 1,
+						partyTargetSubType = "Nearest",
+						partyTargetType = "All",
+						rangeCheckSourceSubType = "Nearest",
+						rangeCheckSourceType = "Self",
+						rangeSourceContentID = -1,
+						rangeSourceName = "",
+						setEventTargetSubtype = 1,
+						setFirstMatch = false,
+						spellIDList = 
+						{
+						},
+						uuid = "98f0c851-418d-eed0-8fe8-3e0a713ea394",
+						version = 2,
+					},
+					inheritedObjectUUID = "",
+					inheritedOverwrites = 
+					{
+					},
+				},
+				
+				{
+					data = 
+					{
+						actionCDValue = 0,
+						actionID = -1,
+						buffCheckType = 1,
+						buffDuration = 0,
+						buffID = -1,
+						buffIDList = 
+						{
+						},
+						category = "Lua",
+						channelCheckSpellID = -1,
+						channelCheckSpellIDList = 
+						{
+						},
+						channelCheckTimeRemain = 0,
+						channelCheckType = 1,
+						clusterMinPercent = false,
+						clusterMinTarget = 1,
+						clusterOriginalTarget = false,
+						clusterRadius = 8,
+						clusterRange = 30,
+						comparator = 1,
+						conditionLua = "return FFXIV_Common_BotRunning",
+						conditionType = 1,
+						conditions = 
+						{
+						},
+						contentid = -1,
+						dequeueIfLuaFalse = false,
+						enmityValue = 0,
+						eventArgOptionType = 1,
+						eventArgType = 1,
+						eventBuffDuration = 0,
+						eventBuffID = -1,
+						eventChatLine = "",
+						eventEntityContentID = -1,
+						eventEntityID = -1,
+						eventEntityName = "",
+						eventMarkerID = -1,
+						eventOwnerContentID = -1,
+						eventOwnerID = -1,
+						eventOwnerName = "",
+						eventSpellID = -1,
+						eventSpellName = -1,
+						eventTargetContentID = -1,
+						eventTargetID = -1,
+						eventTargetName = "",
+						filterTargetSubtype = "Nearest",
+						filterTargetType = "Self",
+						gaugeIndex = 1,
+						gaugeValue = 0,
+						hpType = 1,
+						hpValue = 0,
+						inCombatType = 1,
+						inRangeValue = 0,
+						lastSkillID = -1,
+						localMapIDList = 
+						{
+						},
+						localmapid = -1,
+						markerIDList = 
+						{
+						},
+						matchAnyBuff = false,
+						minTargetPercent = false,
+						mpType = 1,
+						mpValue = 0,
+						name = "Running [TRUE]",
+						partyHpType = 1,
+						partyHpValue = 0,
+						partyMpType = 1,
+						partyMpValue = 0,
+						partyTargetContentID = -1,
+						partyTargetName = "",
+						partyTargetNumber = 1,
+						partyTargetSubType = 1,
+						partyTargetType = "All",
+						rangeCheckSourceSubType = "Nearest",
+						rangeCheckSourceType = "Self",
+						rangeSourceContentID = -1,
+						rangeSourceName = "",
+						setEventTargetSubtype = 1,
+						setFirstMatch = false,
+						spellIDList = 
+						{
+						},
+						uuid = "7278fdaf-a489-3c10-a6c7-3181d1eec43a",
+						version = 2,
+					},
+					inheritedObjectUUID = "",
+					inheritedOverwrites = 
+					{
+					},
+				},
+			},
+			enabled = true,
+			eventType = 1,
+			execute = "",
+			executeType = 1,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 0,
+			name = "Sprint",
+			randomOffset = 0,
+			throttleTime = 1000,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 0,
+			timeout = 5,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			uuid = "13cf9bb3-a185-7e2a-a5b6-0eddcdd6a777",
+			version = 2,
+		},
+		inheritedIndex = 8,
 		inheritedObjectUUID = "",
 	},
 	
@@ -1822,13 +2218,13 @@ local tbl =
 						clusterRadius = 8,
 						clusterRange = 30,
 						comparator = 1,
-						conditionLua = "return FFXIV_Common_BotRunning == true or (HusbandoMaxAddonStatus ~= nil and\n          (HusbandoMaxAddonStatus.Assist.Enabled == true or HusbandoMaxAddonStatus.DeepDungeon.Enabled == true or\n             HusbandoMaxAddonStatus.DungeonMaster.Enabled == true or HusbandoMaxAddonStatus.EurekaAnemos.Enabled == true or\n             HusbandoMaxAddonStatus.EurekaHydatos.Enabled == true or HusbandoMaxAddonStatus.EurekaPagos.Enabled == true or\n             HusbandoMaxAddonStatus.EurekaPyros.Enabled == true or HusbandoMaxAddonStatus.Events.Enabled == true or\n             HusbandoMaxAddonStatus.HuntTracker.Enabled == true or HusbandoMaxAddonStatus.PartyFollowAssist.Enabled ==\n             true or HusbandoMaxAddonStatus.TreasureMap.Enabled == true)) or\n          (KitanoiFuncs ~= nil and KitanoiFuncs.AreKitanoiAddonsRunning() == true)",
+						conditionLua = "return FFXIV_Common_BotRunning == true or (HusbandoMaxAddonStatus ~= nil   and (HusbandoMaxAddonStatus.Assist.Enabled == true   or HusbandoMaxAddonStatus.DeepDungeon.Enabled == true   or HusbandoMaxAddonStatus.DungeonMaster.Enabled == true   or HusbandoMaxAddonStatus.EurekaAnemos.Enabled == true   or HusbandoMaxAddonStatus.EurekaHydatos.Enabled == true   or HusbandoMaxAddonStatus.EurekaPagos.Enabled == true   or HusbandoMaxAddonStatus.EurekaPyros.Enabled == true   or HusbandoMaxAddonStatus.Events.Enabled == true   or HusbandoMaxAddonStatus.HuntTracker.Enabled == true   or HusbandoMaxAddonStatus.PartyFollowAssist.Enabled == true   or HusbandoMaxAddonStatus.TreasureMap.Enabled == true)  ) or (KitanoiFuncs ~= nil and KitanoiFuncs.AreKitanoiAddonsRunning() == true)",
 						conditionType = 1,
 						conditions = 
 						{
 						},
 						contentid = -1,
-						dequeueIfLuaFalse = false,
+						dequeueIfLuaFalse = true,
 						enmityValue = 0,
 						eventArgOptionType = 1,
 						eventArgType = 1,
@@ -1926,7 +2322,7 @@ local tbl =
 						{
 						},
 						contentid = -1,
-						dequeueIfLuaFalse = false,
+						dequeueIfLuaFalse = true,
 						enmityValue = 0,
 						eventArgOptionType = 1,
 						eventArgType = 1,
@@ -2944,7 +3340,7 @@ local tbl =
 						{
 							
 							{
-								"b775c139-4792-907b-8acc-abb9fe806337",
+								"a44bb56b-1b58-e208-b1b1-344157b3bfd7",
 								true,
 							},
 							
@@ -3044,7 +3440,7 @@ local tbl =
 						{
 							
 							{
-								"b775c139-4792-907b-8acc-abb9fe806337",
+								"a44bb56b-1b58-e208-b1b1-344157b3bfd7",
 								true,
 							},
 							
@@ -3144,7 +3540,7 @@ local tbl =
 						{
 							
 							{
-								"b775c139-4792-907b-8acc-abb9fe806337",
+								"a44bb56b-1b58-e208-b1b1-344157b3bfd7",
 								true,
 							},
 							
@@ -3239,7 +3635,7 @@ local tbl =
 						{
 							
 							{
-								"b775c139-4792-907b-8acc-abb9fe806337",
+								"a44bb56b-1b58-e208-b1b1-344157b3bfd7",
 								true,
 							},
 							
@@ -3339,7 +3735,7 @@ local tbl =
 						{
 							
 							{
-								"b775c139-4792-907b-8acc-abb9fe806337",
+								"a44bb56b-1b58-e208-b1b1-344157b3bfd7",
 								true,
 							},
 							
@@ -3444,7 +3840,7 @@ local tbl =
 						{
 							
 							{
-								"b775c139-4792-907b-8acc-abb9fe806337",
+								"a44bb56b-1b58-e208-b1b1-344157b3bfd7",
 								true,
 							},
 							
@@ -3554,7 +3950,7 @@ local tbl =
 						{
 							
 							{
-								"b775c139-4792-907b-8acc-abb9fe806337",
+								"a44bb56b-1b58-e208-b1b1-344157b3bfd7",
 								true,
 							},
 							
@@ -3637,7 +4033,7 @@ local tbl =
 						variableTogglesType = 3,
 						version = 2,
 					},
-					inheritedIndex = 2,
+					inheritedIndex = 7,
 					inheritedObjectUUID = "",
 					inheritedOverwrites = 
 					{
@@ -3664,7 +4060,7 @@ local tbl =
 						{
 							
 							{
-								"b775c139-4792-907b-8acc-abb9fe806337",
+								"a44bb56b-1b58-e208-b1b1-344157b3bfd7",
 								true,
 							},
 							
@@ -3774,7 +4170,7 @@ local tbl =
 						{
 							
 							{
-								"b775c139-4792-907b-8acc-abb9fe806337",
+								"a44bb56b-1b58-e208-b1b1-344157b3bfd7",
 								true,
 							},
 							
@@ -3894,7 +4290,7 @@ local tbl =
 						{
 							
 							{
-								"b775c139-4792-907b-8acc-abb9fe806337",
+								"a44bb56b-1b58-e208-b1b1-344157b3bfd7",
 								true,
 							},
 							
@@ -3982,7 +4378,7 @@ local tbl =
 						variableTogglesType = 3,
 						version = 2,
 					},
-					inheritedIndex = 6,
+					inheritedIndex = 10,
 					inheritedObjectUUID = "",
 					inheritedOverwrites = 
 					{
@@ -4009,7 +4405,7 @@ local tbl =
 						{
 							
 							{
-								"b775c139-4792-907b-8acc-abb9fe806337",
+								"a44bb56b-1b58-e208-b1b1-344157b3bfd7",
 								true,
 							},
 							
@@ -4129,7 +4525,7 @@ local tbl =
 						{
 							
 							{
-								"b775c139-4792-907b-8acc-abb9fe806337",
+								"a44bb56b-1b58-e208-b1b1-344157b3bfd7",
 								true,
 							},
 							
@@ -4214,7 +4610,7 @@ local tbl =
 						usePot = false,
 						uuid = "80467dea-87c3-5fde-b0e9-6a87fa44a7ae",
 						variableIsHover = true,
-						variableTogglesType = 4,
+						variableTogglesType = 3,
 						version = 2,
 					},
 					inheritedIndex = 12,
@@ -4244,7 +4640,7 @@ local tbl =
 						{
 							
 							{
-								"b775c139-4792-907b-8acc-abb9fe806337",
+								"a44bb56b-1b58-e208-b1b1-344157b3bfd7",
 								true,
 							},
 							
@@ -4339,7 +4735,7 @@ local tbl =
 						usePot = false,
 						uuid = "18c02fee-b281-eaac-83a4-1d456c17598c",
 						variableIsHover = false,
-						variableTogglesType = 4,
+						variableTogglesType = 3,
 						version = 2,
 					},
 					inheritedIndex = 1,
@@ -4369,7 +4765,7 @@ local tbl =
 						{
 							
 							{
-								"b775c139-4792-907b-8acc-abb9fe806337",
+								"a44bb56b-1b58-e208-b1b1-344157b3bfd7",
 								true,
 							},
 							
@@ -4459,7 +4855,7 @@ local tbl =
 						usePot = false,
 						uuid = "09d6f9a4-fe8b-46fd-9dab-9bd27a39fc01",
 						variableIsHover = false,
-						variableTogglesType = 4,
+						variableTogglesType = 3,
 						version = 2,
 					},
 					inheritedIndex = 1,
@@ -4489,7 +4885,7 @@ local tbl =
 						{
 							
 							{
-								"b775c139-4792-907b-8acc-abb9fe806337",
+								"a44bb56b-1b58-e208-b1b1-344157b3bfd7",
 								true,
 							},
 							
@@ -4609,7 +5005,7 @@ local tbl =
 						{
 							
 							{
-								"b775c139-4792-907b-8acc-abb9fe806337",
+								"a44bb56b-1b58-e208-b1b1-344157b3bfd7",
 								true,
 							},
 							
@@ -4724,7 +5120,7 @@ local tbl =
 						{
 							
 							{
-								"b775c139-4792-907b-8acc-abb9fe806337",
+								"a44bb56b-1b58-e208-b1b1-344157b3bfd7",
 								true,
 							},
 							
@@ -4824,7 +5220,7 @@ local tbl =
 						{
 							
 							{
-								"b775c139-4792-907b-8acc-abb9fe806337",
+								"a44bb56b-1b58-e208-b1b1-344157b3bfd7",
 								true,
 							},
 							
@@ -4897,7 +5293,7 @@ local tbl =
 						variableTogglesType = 3,
 						version = 2,
 					},
-					inheritedIndex = 5,
+					inheritedIndex = 18,
 					inheritedObjectUUID = "",
 					inheritedOverwrites = 
 					{
@@ -4924,7 +5320,7 @@ local tbl =
 						{
 							
 							{
-								"b775c139-4792-907b-8acc-abb9fe806337",
+								"a44bb56b-1b58-e208-b1b1-344157b3bfd7",
 								true,
 							},
 							
@@ -5024,7 +5420,7 @@ local tbl =
 						{
 							
 							{
-								"b775c139-4792-907b-8acc-abb9fe806337",
+								"a44bb56b-1b58-e208-b1b1-344157b3bfd7",
 								true,
 							},
 							
@@ -5134,7 +5530,7 @@ local tbl =
 						{
 							
 							{
-								"b775c139-4792-907b-8acc-abb9fe806337",
+								"a44bb56b-1b58-e208-b1b1-344157b3bfd7",
 								true,
 							},
 							
@@ -5249,7 +5645,7 @@ local tbl =
 						{
 							
 							{
-								"b775c139-4792-907b-8acc-abb9fe806337",
+								"a44bb56b-1b58-e208-b1b1-344157b3bfd7",
 								true,
 							},
 							
@@ -5349,7 +5745,7 @@ local tbl =
 						{
 							
 							{
-								"b775c139-4792-907b-8acc-abb9fe806337",
+								"a44bb56b-1b58-e208-b1b1-344157b3bfd7",
 								true,
 							},
 							
@@ -5449,7 +5845,7 @@ local tbl =
 						{
 							
 							{
-								"b775c139-4792-907b-8acc-abb9fe806337",
+								"a44bb56b-1b58-e208-b1b1-344157b3bfd7",
 								true,
 							},
 							
@@ -5549,7 +5945,7 @@ local tbl =
 						{
 							
 							{
-								"b775c139-4792-907b-8acc-abb9fe806337",
+								"a44bb56b-1b58-e208-b1b1-344157b3bfd7",
 								true,
 							},
 							
@@ -5659,7 +6055,7 @@ local tbl =
 						{
 							
 							{
-								"b775c139-4792-907b-8acc-abb9fe806337",
+								"a44bb56b-1b58-e208-b1b1-344157b3bfd7",
 								true,
 							},
 							
@@ -5879,13 +6275,13 @@ local tbl =
 						clusterRadius = 8,
 						clusterRange = 30,
 						comparator = 1,
-						conditionLua = "return FFXIV_Common_BotRunning == true or (HusbandoMaxAddonStatus ~= nil and\n          (HusbandoMaxAddonStatus.Assist.Enabled == true or HusbandoMaxAddonStatus.DeepDungeon.Enabled == true or\n             HusbandoMaxAddonStatus.DungeonMaster.Enabled == true or HusbandoMaxAddonStatus.EurekaAnemos.Enabled == true or\n             HusbandoMaxAddonStatus.EurekaHydatos.Enabled == true or HusbandoMaxAddonStatus.EurekaPagos.Enabled == true or\n             HusbandoMaxAddonStatus.EurekaPyros.Enabled == true or HusbandoMaxAddonStatus.Events.Enabled == true or\n             HusbandoMaxAddonStatus.HuntTracker.Enabled == true or HusbandoMaxAddonStatus.PartyFollowAssist.Enabled ==\n             true or HusbandoMaxAddonStatus.TreasureMap.Enabled == true)) or\n          (KitanoiFuncs ~= nil and KitanoiFuncs.AreKitanoiAddonsRunning() == true)",
+						conditionLua = "return FFXIV_Common_BotRunning",
 						conditionType = 1,
 						conditions = 
 						{
 						},
 						contentid = -1,
-						dequeueIfLuaFalse = false,
+						dequeueIfLuaFalse = true,
 						enmityValue = 0,
 						eventArgOptionType = 1,
 						eventArgType = 1,
@@ -5924,7 +6320,7 @@ local tbl =
 						minTargetPercent = false,
 						mpType = 1,
 						mpValue = 0,
-						name = "Minion Running [TRUE]",
+						name = "Bot Active [TRUE]",
 						partyHpType = 1,
 						partyHpValue = 0,
 						partyMpType = 1,
@@ -5943,7 +6339,7 @@ local tbl =
 						spellIDList = 
 						{
 						},
-						uuid = "b775c139-4792-907b-8acc-abb9fe806337",
+						uuid = "a44bb56b-1b58-e208-b1b1-344157b3bfd7",
 						version = 2,
 					},
 					inheritedIndex = 2,
@@ -5983,7 +6379,7 @@ local tbl =
 						{
 						},
 						contentid = -1,
-						dequeueIfLuaFalse = false,
+						dequeueIfLuaFalse = true,
 						enmityValue = 0,
 						eventArgOptionType = 1,
 						eventArgType = 1,
@@ -11329,7 +11725,7 @@ local tbl =
 						{
 						},
 						matchAnyBuff = false,
-						minTargetPercent = true,
+						minTargetPercent = false,
 						mpType = 1,
 						mpValue = 0,
 						name = "Plenary Indulgence/Temperance/Aquaveil",
@@ -11339,7 +11735,7 @@ local tbl =
 						partyMpValue = 0,
 						partyTargetContentID = -1,
 						partyTargetName = "",
-						partyTargetNumber = 50,
+						partyTargetNumber = 2,
 						partyTargetSubType = "Nearest",
 						partyTargetType = "All",
 						rangeCheckSourceSubType = "Nearest",
@@ -11432,7 +11828,7 @@ local tbl =
 						{
 						},
 						matchAnyBuff = false,
-						minTargetPercent = true,
+						minTargetPercent = false,
 						mpType = 1,
 						mpValue = 0,
 						name = "Asylum",
@@ -11442,7 +11838,7 @@ local tbl =
 						partyMpValue = 0,
 						partyTargetContentID = -1,
 						partyTargetName = "",
-						partyTargetNumber = 50,
+						partyTargetNumber = 2,
 						partyTargetSubType = "Nearest",
 						partyTargetType = "All",
 						rangeCheckSourceSubType = "Nearest",
@@ -11540,7 +11936,7 @@ local tbl =
 						{
 						},
 						matchAnyBuff = false,
-						minTargetPercent = true,
+						minTargetPercent = false,
 						mpType = 1,
 						mpValue = 0,
 						name = "Afflatus Rapture (Plenary Indulgence)",
@@ -11550,7 +11946,7 @@ local tbl =
 						partyMpValue = 0,
 						partyTargetContentID = -1,
 						partyTargetName = "",
-						partyTargetNumber = 50,
+						partyTargetNumber = 2,
 						partyTargetSubType = "Nearest",
 						partyTargetType = "All",
 						rangeCheckSourceSubType = "Nearest",
@@ -11648,7 +12044,7 @@ local tbl =
 						{
 						},
 						matchAnyBuff = false,
-						minTargetPercent = true,
+						minTargetPercent = false,
 						mpType = 1,
 						mpValue = 0,
 						name = "Afflatus Rapture",
@@ -11658,7 +12054,7 @@ local tbl =
 						partyMpValue = 0,
 						partyTargetContentID = -1,
 						partyTargetName = "",
-						partyTargetNumber = 50,
+						partyTargetNumber = 2,
 						partyTargetSubType = "Nearest",
 						partyTargetType = "All",
 						rangeCheckSourceSubType = "Nearest",
@@ -11751,7 +12147,7 @@ local tbl =
 						{
 						},
 						matchAnyBuff = false,
-						minTargetPercent = true,
+						minTargetPercent = false,
 						mpType = 1,
 						mpValue = 0,
 						name = "Cure III (Plenary Indulgence)",
@@ -11761,7 +12157,7 @@ local tbl =
 						partyMpValue = 0,
 						partyTargetContentID = -1,
 						partyTargetName = "",
-						partyTargetNumber = 50,
+						partyTargetNumber = 2,
 						partyTargetSubType = "Nearest",
 						partyTargetType = "All",
 						rangeCheckSourceSubType = "Nearest",
@@ -11854,7 +12250,7 @@ local tbl =
 						{
 						},
 						matchAnyBuff = false,
-						minTargetPercent = true,
+						minTargetPercent = false,
 						mpType = 1,
 						mpValue = 0,
 						name = "Cure III",
@@ -11864,7 +12260,7 @@ local tbl =
 						partyMpValue = 0,
 						partyTargetContentID = -1,
 						partyTargetName = "",
-						partyTargetNumber = 50,
+						partyTargetNumber = 2,
 						partyTargetSubType = "Nearest",
 						partyTargetType = "All",
 						rangeCheckSourceSubType = "Nearest",
@@ -11962,7 +12358,7 @@ local tbl =
 						{
 						},
 						matchAnyBuff = false,
-						minTargetPercent = true,
+						minTargetPercent = false,
 						mpType = 1,
 						mpValue = 0,
 						name = "Medica II (Plenary Indulgence)",
@@ -11972,7 +12368,7 @@ local tbl =
 						partyMpValue = 0,
 						partyTargetContentID = -1,
 						partyTargetName = "",
-						partyTargetNumber = 50,
+						partyTargetNumber = 2,
 						partyTargetSubType = "Nearest",
 						partyTargetType = "All",
 						rangeCheckSourceSubType = "Nearest",
@@ -12070,7 +12466,7 @@ local tbl =
 						{
 						},
 						matchAnyBuff = false,
-						minTargetPercent = true,
+						minTargetPercent = false,
 						mpType = 1,
 						mpValue = 0,
 						name = "Medica II",
@@ -12080,7 +12476,7 @@ local tbl =
 						partyMpValue = 0,
 						partyTargetContentID = -1,
 						partyTargetName = "",
-						partyTargetNumber = 50,
+						partyTargetNumber = 2,
 						partyTargetSubType = "Nearest",
 						partyTargetType = "All",
 						rangeCheckSourceSubType = "Nearest",
@@ -12178,7 +12574,7 @@ local tbl =
 						{
 						},
 						matchAnyBuff = false,
-						minTargetPercent = true,
+						minTargetPercent = false,
 						mpType = 1,
 						mpValue = 0,
 						name = "Medica (Plenary Indulgence)",
@@ -12188,7 +12584,7 @@ local tbl =
 						partyMpValue = 0,
 						partyTargetContentID = -1,
 						partyTargetName = "",
-						partyTargetNumber = 50,
+						partyTargetNumber = 2,
 						partyTargetSubType = "Nearest",
 						partyTargetType = "All",
 						rangeCheckSourceSubType = "Nearest",
@@ -12286,7 +12682,7 @@ local tbl =
 						{
 						},
 						matchAnyBuff = false,
-						minTargetPercent = true,
+						minTargetPercent = false,
 						mpType = 1,
 						mpValue = 0,
 						name = "Medica",
@@ -12296,7 +12692,7 @@ local tbl =
 						partyMpValue = 0,
 						partyTargetContentID = -1,
 						partyTargetName = "",
-						partyTargetNumber = 50,
+						partyTargetNumber = 2,
 						partyTargetSubType = "Nearest",
 						partyTargetType = "All",
 						rangeCheckSourceSubType = "Nearest",
@@ -16377,7 +16773,7 @@ local tbl =
 			mechanicTime = 0,
 			name = "Heal",
 			randomOffset = 0,
-			throttleTime = 0,
+			throttleTime = 1000,
 			timeRandomRange = false,
 			timeRange = false,
 			timelineIndex = 0,
@@ -16388,7 +16784,7 @@ local tbl =
 			uuid = "f3bf5472-fd7e-f57e-835d-15fe7f2c6f08",
 			version = 2,
 		},
-		inheritedIndex = 8,
+		inheritedIndex = 9,
 		inheritedObjectUUID = "",
 	},
 	

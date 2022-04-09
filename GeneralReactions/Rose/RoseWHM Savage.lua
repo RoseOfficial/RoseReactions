@@ -6,6 +6,41 @@ local tbl =
 		{
 			actions = 
 			{
+			},
+			conditions = 
+			{
+			},
+			enabled = false,
+			eventType = 1,
+			execute = "",
+			executeType = 1,
+			lastUse = 0,
+			loop = false,
+			luaNeedsWeaveWindow = false,
+			luaReturnsAction = false,
+			mechanicTime = 0,
+			name = "-- Checks",
+			randomOffset = 0,
+			throttleTime = 0,
+			timeRandomRange = false,
+			timeRange = false,
+			timelineIndex = 0,
+			timeout = 5,
+			timerEndOffset = 0,
+			timerOffset = 0,
+			timerStartOffset = 0,
+			uuid = "717ea776-c5fb-4d0c-bb7e-87d2682e8650",
+			version = 2,
+		},
+		inheritedIndex = 1,
+		inheritedObjectUUID = "",
+	},
+	
+	{
+		data = 
+		{
+			actions = 
+			{
 				
 				{
 					data = 
@@ -288,40 +323,6 @@ local tbl =
 			timerOffset = 0,
 			timerStartOffset = 0,
 			uuid = "b38276ed-eda9-538c-936d-b06e7a120052",
-			version = 2,
-		},
-		inheritedObjectUUID = "",
-	},
-	
-	{
-		data = 
-		{
-			actions = 
-			{
-			},
-			conditions = 
-			{
-			},
-			enabled = false,
-			eventType = 1,
-			execute = "",
-			executeType = 1,
-			lastUse = 0,
-			loop = false,
-			luaNeedsWeaveWindow = false,
-			luaReturnsAction = false,
-			mechanicTime = 0,
-			name = "-- Checks",
-			randomOffset = 0,
-			throttleTime = 0,
-			timeRandomRange = false,
-			timeRange = false,
-			timelineIndex = 0,
-			timeout = 5,
-			timerEndOffset = 0,
-			timerOffset = 0,
-			timerStartOffset = 0,
-			uuid = "717ea776-c5fb-4d0c-bb7e-87d2682e8650",
 			version = 2,
 		},
 		inheritedObjectUUID = "",
@@ -14930,12 +14931,12 @@ local tbl =
 							},
 							
 							{
-								"0fb0fd7d-4c67-8534-9f26-3be0f9fe7c44",
+								"4afa1aae-3972-53d7-8724-d70159aa2a67",
 								true,
 							},
 							
 							{
-								"4afa1aae-3972-53d7-8724-d70159aa2a67",
+								"0fb0fd7d-4c67-8534-9f26-3be0f9fe7c44",
 								true,
 							},
 						},
@@ -16977,6 +16978,11 @@ local tbl =
 							
 							{
 								"c8566ed4-f376-832e-80ec-c23fa7550c4d",
+								true,
+							},
+							
+							{
+								"35e729dd-1798-93ca-bf17-5d0bde38364c",
 								true,
 							},
 						},
