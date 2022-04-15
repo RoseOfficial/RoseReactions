@@ -1140,7 +1140,7 @@ local tbl =
 				{
 					data = 
 					{
-						aType = "Skill",
+						aType = "Variable",
 						actionID = 3,
 						actionLua = "",
 						allowInterrupt = false,
@@ -1173,7 +1173,7 @@ local tbl =
 						},
 						endIfUsed = true,
 						fallthrough = false,
-						gVar = "",
+						gVar = "ACR_RikuAST2_Hotbar_Sprint",
 						gVarValue = 1,
 						ignoreWeaveRules = false,
 						isAreaTarget = false,
@@ -1197,7 +1197,7 @@ local tbl =
 						usePot = false,
 						uuid = "fb1edaf4-6f2f-a647-88b3-ea2d614bc17b",
 						variableIsHover = false,
-						variableTogglesType = 1,
+						variableTogglesType = 2,
 						version = 2,
 					},
 					inheritedObjectUUID = "",
