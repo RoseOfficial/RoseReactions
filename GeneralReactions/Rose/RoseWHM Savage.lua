@@ -5105,17 +5105,22 @@ local tbl =
 						{
 							
 							{
-								"193d407a-1a1e-da41-9572-566dde1dd398",
+								"57f3eea6-9052-1ef3-873c-54027b2109a8",
 								true,
 							},
 							
 							{
-								"5a0f8263-60f0-decb-8ceb-a5adc2ac3a09",
+								"98f0c851-418d-eed0-8fe8-3e0a713ea394",
 								true,
 							},
 							
 							{
-								"26844337-3d31-f170-a507-a5b914b079f4",
+								"7278fdaf-a489-3c10-a6c7-3181d1eec43a",
+								true,
+							},
+							
+							{
+								"be70a980-a189-cbd3-b7e2-9a137a0f94e8",
 								true,
 							},
 						},
@@ -5143,7 +5148,7 @@ local tbl =
 						useItemID = 0,
 						useItemName = "",
 						usePot = false,
-						uuid = "846f1e76-c074-aba3-84d1-1d31ddd7069f",
+						uuid = "fb1edaf4-6f2f-a647-88b3-ea2d614bc17b",
 						variableIsHover = false,
 						variableTogglesType = 1,
 						version = 2,
@@ -5181,13 +5186,209 @@ local tbl =
 						clusterRadius = 8,
 						clusterRange = 30,
 						comparator = 1,
+						conditionLua = "return RoseCore.Settings.Active",
+						conditionType = 1,
+						conditions = 
+						{
+						},
+						contentid = -1,
+						dequeueIfLuaFalse = true,
+						enmityValue = 0,
+						eventArgOptionType = 1,
+						eventArgType = 1,
+						eventBuffDuration = 0,
+						eventBuffID = -1,
+						eventChatLine = "",
+						eventEntityContentID = -1,
+						eventEntityID = -1,
+						eventEntityName = "",
+						eventMarkerID = -1,
+						eventOwnerContentID = -1,
+						eventOwnerID = -1,
+						eventOwnerName = "",
+						eventSpellID = -1,
+						eventSpellName = -1,
+						eventTargetContentID = -1,
+						eventTargetID = -1,
+						eventTargetName = "",
+						filterTargetSubtype = "Nearest",
+						filterTargetType = "Self",
+						gaugeIndex = 1,
+						gaugeValue = 0,
+						hpType = 1,
+						hpValue = 0,
+						inCombatType = 1,
+						inRangeValue = 0,
+						lastSkillID = -1,
+						localMapIDList = 
+						{
+						},
+						localmapid = -1,
+						markerIDList = 
+						{
+						},
+						matchAnyBuff = false,
+						minTargetPercent = false,
+						mpType = 1,
+						mpValue = 0,
+						name = "RoseCore Active [TRUE]",
+						partyHpType = 1,
+						partyHpValue = 0,
+						partyMpType = 1,
+						partyMpValue = 0,
+						partyTargetContentID = -1,
+						partyTargetName = "",
+						partyTargetNumber = 1,
+						partyTargetSubType = 1,
+						partyTargetType = "All",
+						rangeCheckSourceSubType = "Nearest",
+						rangeCheckSourceType = "Self",
+						rangeSourceContentID = -1,
+						rangeSourceName = "",
+						setEventTargetSubtype = 1,
+						setFirstMatch = false,
+						spellIDList = 
+						{
+						},
+						uuid = "7278fdaf-a489-3c10-a6c7-3181d1eec43a",
+						version = 2,
+					},
+					inheritedIndex = 1,
+					inheritedObjectUUID = "",
+					inheritedOverwrites = 
+					{
+					},
+				},
+				
+				{
+					data = 
+					{
+						actionCDValue = 0,
+						actionID = -1,
+						buffCheckType = 1,
+						buffDuration = 0,
+						buffID = -1,
+						buffIDList = 
+						{
+						},
+						category = "Lua",
+						channelCheckSpellID = -1,
+						channelCheckSpellIDList = 
+						{
+						},
+						channelCheckTimeRemain = 0,
+						channelCheckType = 1,
+						clusterMinPercent = false,
+						clusterMinTarget = 1,
+						clusterOriginalTarget = false,
+						clusterRadius = 8,
+						clusterRange = 30,
+						comparator = 1,
+						conditionLua = "return RoseCore.Settings.WhmSavHotbar.Sprint.bool",
+						conditionType = 1,
+						conditions = 
+						{
+						},
+						contentid = -1,
+						dequeueIfLuaFalse = true,
+						enmityValue = 0,
+						eventArgOptionType = 1,
+						eventArgType = 1,
+						eventBuffDuration = 0,
+						eventBuffID = -1,
+						eventChatLine = "",
+						eventEntityContentID = -1,
+						eventEntityID = -1,
+						eventEntityName = "",
+						eventMarkerID = -1,
+						eventOwnerContentID = -1,
+						eventOwnerID = -1,
+						eventOwnerName = "",
+						eventSpellID = -1,
+						eventSpellName = -1,
+						eventTargetContentID = -1,
+						eventTargetID = -1,
+						eventTargetName = "",
+						filterTargetSubtype = "Nearest",
+						filterTargetType = "Self",
+						gaugeIndex = 1,
+						gaugeValue = 0,
+						hpType = 1,
+						hpValue = 0,
+						inCombatType = 1,
+						inRangeValue = 0,
+						lastSkillID = -1,
+						localMapIDList = 
+						{
+						},
+						localmapid = -1,
+						markerIDList = 
+						{
+						},
+						matchAnyBuff = false,
+						minTargetPercent = false,
+						mpType = 1,
+						mpValue = 0,
+						name = "Sprint [TRUE]",
+						partyHpType = 1,
+						partyHpValue = 0,
+						partyMpType = 1,
+						partyMpValue = 0,
+						partyTargetContentID = -1,
+						partyTargetName = "",
+						partyTargetNumber = 1,
+						partyTargetSubType = "Nearest",
+						partyTargetType = "All",
+						rangeCheckSourceSubType = "Nearest",
+						rangeCheckSourceType = "Self",
+						rangeSourceContentID = -1,
+						rangeSourceName = "",
+						setEventTargetSubtype = 1,
+						setFirstMatch = false,
+						spellIDList = 
+						{
+						},
+						uuid = "1b8f017c-c259-b3bb-b783-27883ad839ea",
+						version = 2,
+					},
+					inheritedIndex = 1,
+					inheritedObjectUUID = "",
+					inheritedOverwrites = 
+					{
+					},
+				},
+				
+				{
+					data = 
+					{
+						actionCDValue = 0,
+						actionID = -1,
+						buffCheckType = 1,
+						buffDuration = 0,
+						buffID = -1,
+						buffIDList = 
+						{
+						},
+						category = "Lua",
+						channelCheckSpellID = -1,
+						channelCheckSpellIDList = 
+						{
+						},
+						channelCheckTimeRemain = 0,
+						channelCheckType = 1,
+						clusterMinPercent = false,
+						clusterMinTarget = 1,
+						clusterOriginalTarget = false,
+						clusterRadius = 8,
+						clusterRange = 30,
+						comparator = 1,
 						conditionLua = "return Player:IsMoving()",
 						conditionType = 1,
 						conditions = 
 						{
 						},
 						contentid = -1,
-						dequeueIfLuaFalse = false,
+						dequeueIfLuaFalse = true,
 						enmityValue = 0,
 						eventArgOptionType = 1,
 						eventArgType = 1,
@@ -5245,9 +5446,10 @@ local tbl =
 						spellIDList = 
 						{
 						},
-						uuid = "193d407a-1a1e-da41-9572-566dde1dd398",
+						uuid = "57f3eea6-9052-1ef3-873c-54027b2109a8",
 						version = 2,
 					},
+					inheritedIndex = 1,
 					inheritedObjectUUID = "",
 					inheritedOverwrites = 
 					{
@@ -5284,7 +5486,7 @@ local tbl =
 						{
 						},
 						contentid = -1,
-						dequeueIfLuaFalse = false,
+						dequeueIfLuaFalse = true,
 						enmityValue = 0,
 						eventArgOptionType = 1,
 						eventArgType = 1,
@@ -5342,9 +5544,10 @@ local tbl =
 						spellIDList = 
 						{
 						},
-						uuid = "5a0f8263-60f0-decb-8ceb-a5adc2ac3a09",
+						uuid = "98f0c851-418d-eed0-8fe8-3e0a713ea394",
 						version = 2,
 					},
+					inheritedIndex = 4,
 					inheritedObjectUUID = "",
 					inheritedOverwrites = 
 					{
@@ -5375,13 +5578,13 @@ local tbl =
 						clusterRadius = 8,
 						clusterRange = 30,
 						comparator = 1,
-						conditionLua = "return FFXIV_Common_BotRunning",
+						conditionLua = "return Player.IsMounted == false",
 						conditionType = 1,
 						conditions = 
 						{
 						},
 						contentid = -1,
-						dequeueIfLuaFalse = false,
+						dequeueIfLuaFalse = true,
 						enmityValue = 0,
 						eventArgOptionType = 1,
 						eventArgType = 1,
@@ -5420,7 +5623,7 @@ local tbl =
 						minTargetPercent = false,
 						mpType = 1,
 						mpValue = 0,
-						name = "Running [TRUE]",
+						name = "Player Mounted [FALSE]",
 						partyHpType = 1,
 						partyHpValue = 0,
 						partyMpType = 1,
@@ -5428,7 +5631,7 @@ local tbl =
 						partyTargetContentID = -1,
 						partyTargetName = "",
 						partyTargetNumber = 1,
-						partyTargetSubType = 1,
+						partyTargetSubType = "Nearest",
 						partyTargetType = "All",
 						rangeCheckSourceSubType = "Nearest",
 						rangeCheckSourceType = "Self",
@@ -5439,7 +5642,7 @@ local tbl =
 						spellIDList = 
 						{
 						},
-						uuid = "26844337-3d31-f170-a507-a5b914b079f4",
+						uuid = "be70a980-a189-cbd3-b7e2-9a137a0f94e8",
 						version = 2,
 					},
 					inheritedObjectUUID = "",
@@ -5459,7 +5662,7 @@ local tbl =
 			mechanicTime = 0,
 			name = "Sprint",
 			randomOffset = 0,
-			throttleTime = 0,
+			throttleTime = 1000,
 			timeRandomRange = false,
 			timeRange = false,
 			timelineIndex = 0,
@@ -5467,9 +5670,10 @@ local tbl =
 			timerEndOffset = 0,
 			timerOffset = 0,
 			timerStartOffset = 0,
-			uuid = "3dfe5e28-3f61-7640-8d8a-da0ee62ec93d",
+			uuid = "f2380f69-e589-5f9c-a6b8-d0c354402d5c",
 			version = 2,
 		},
+		inheritedIndex = 9,
 		inheritedObjectUUID = "",
 	},
 	
