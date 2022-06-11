@@ -1117,7 +1117,7 @@ local tbl =
 				{
 					data = 
 					{
-						aType = "Variable",
+						aType = "Skill",
 						actionID = 3,
 						actionLua = "",
 						allowInterrupt = false,
@@ -1162,7 +1162,7 @@ local tbl =
 						fallthrough = false,
 						gVar = "ACR_RikuSCH2_Hotbar_Sprint",
 						gVarValue = 1,
-						ignoreWeaveRules = false,
+						ignoreWeaveRules = true,
 						isAreaTarget = false,
 						luaNeedsWeaveWindow = false,
 						luaReturnsAction = false,
@@ -1684,10 +1684,10 @@ local tbl =
 			timerEndOffset = 0,
 			timerOffset = 0,
 			timerStartOffset = 0,
-			uuid = "e25adad1-8be6-e3b3-aeb7-e8d790ab12d8",
+			uuid = "a828bec9-5e3c-77cf-a77d-d8f49b39573f",
 			version = 2,
 		},
-		inheritedIndex = 5,
+		inheritedIndex = 6,
 		inheritedObjectUUID = "",
 	},
 	
@@ -15027,7 +15027,7 @@ local tbl =
 			uuid = "baa0afec-f90b-e4f1-820b-27d1e5e7553c",
 			version = 2,
 		},
-		inheritedIndex = 7,
+		inheritedIndex = 8,
 		inheritedObjectUUID = "",
 	},
 	
